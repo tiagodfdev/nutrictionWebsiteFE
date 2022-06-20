@@ -91,42 +91,41 @@ export type IkeyOfIngredients =
 'zinco_mg'
 
 export type IIngredients =
-'ácido Linoleico' |
-'acido Linolênico' |
-'açúcar Adição' |
-'açúcar Total' |
-'cálcio' |
-'carboidrato' |
-'cobalamina' |
-'cobre' |
-'colesterol' |
-'energia' |
-'ferro' |
-'fibra Total' |
-'folato DFE' |
-'fósforo' |
-'gordura Monossaturada' |
-'gordura Polissaturada' |
-'gordura Saturados' |
-'gordura Trans Total' |
-'lipídios Totais' |
-'magnésio' |
-'manganês' |
-'niacina NE' |
-'niacina' |
-'piridoxina' |
-'potássio' |
-'proteína' |
-'retinol' |
-'riboflavina' |
-'selênio' |
-'sódio' |
-'tiamina' |
-'vitamina A' |
-'vitamina C' |
-'vitamina D' |
-'vitamina E' |
-'zinco'
+'Ácido Linoleico'|
+  'Ácido Linolênico'|
+  'Açúcar Total'|
+  'Cálcio'|
+  'Carboidrato'|
+  'Cobalamina'|
+  'Cobre'|
+  'Colesterol'|
+  'Calorias'|
+  'Ferro'|
+  'Fibra Total'|
+  'Folato DFE'|
+  'Fósforo'|
+  'Gordura Monossaturada'|
+  'Gordura Polissaturada'|
+  'Gordura Saturados'|
+  'Gordura Trans Total'|
+  'Lipídios Totais'|
+  'Magnésio'|
+  'Manganês'|
+  'Niacina NE'|
+  'Niacina'|
+  'Piridoxina'|
+  'Potássio'|
+  'Proteína'|
+  'Retinol'|
+  'Riboflavina'|
+  'Selênio'|
+  'Sódio'|
+  'Tiamina'|
+  'Vitamina A'|
+  'Vitamina C'|
+  'Vitamina D'|
+  'Vitamina E'|
+  'Zinco'
 
 export type IorderDirection =
 'ascending' |
