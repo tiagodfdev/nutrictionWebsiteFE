@@ -1,5 +1,5 @@
 import { IIngredients } from '../../types';
-import map from '../consts/ingredientRelations';
+import map from '../consts/ingredientMap';
 
 const ingredientKeyConverter = (ingredient:IIngredients) => map.get(ingredient);
 
