@@ -1,4 +1,4 @@
-const keys = [
+export const keys = [
   'Ácido Linoleico',
   'Ácido Linolênico',
   'Açúcar Total',

@@ -1,12 +1,10 @@
-import React from 'react';
 import { InferGetStaticPropsType } from 'next';
-import { Iingredient } from '../types';
-import nutrictionDB from '../network/services/nutrictionDB';
+import React from 'react';
 import HomeContent from '../components/Pages/HomeContent';
-import CheckToInput from '../components/CheckToInput';
-// import sortByElement from '../utils/common/sortByElement';
+import nutrictionDB from '../network/services/nutrictionDB';
+import { Iingredient } from '../types';
 
-/* export const getStaticProps = async () => {
+export const getStaticProps = async () => {
   const data:Iingredient[] = await nutrictionDB.getAll();
   return {
     props: {
@@ -20,15 +18,4 @@ function Home({ data }: InferGetStaticPropsType<typeof getStaticProps>) {
   );
 }
 
-export default Home;
-*/
-function Home() {
-  return (
-    <>
-      <CheckToInput id='gorduras' label='Limitar gorduras' />
-      <CheckToInput id='calorias' label='Limitar calorias' />
-    </>
-
-  );
-}
 export default Home;

@@ -77,10 +77,10 @@ export default function FilterDropdown(props:IProps) {
               maxWidth: 297,
               maxHeight: 59,
               width: '50%',
-              background: 'rgba(255, 255, 255, 0.7)',
+              background: 'rgba(255, 255, 255, 0.9)',
               borderRadius: 16,
-              boxShadow: '0px 3px 8px 4px rgba(0, 0, 0, 0.05)',
-              border: 0,
+              border: '1px solid #dfe1e5',
+              // boxShadow: '0px 3px 8px 4px rgba(0, 0, 0, 0.05)',
               p: 0,
               '& .MuiOutlinedInput-notchedOutline': {
                 border: 0,
