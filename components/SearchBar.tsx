@@ -48,7 +48,7 @@ function SearchBar(props:ISearchBarProps) {
         onSelect={handleOnSelect}
         onFocus={handleOnFocus}
         onClear={handleOnClear}
-        placeholder="Procure"
+        placeholder=""
         showIcon={true}
         styling={{
           height: '42px',

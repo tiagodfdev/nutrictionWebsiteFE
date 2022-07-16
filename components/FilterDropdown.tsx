@@ -57,7 +57,7 @@ export default function FilterDropdown(props:IProps) {
   };
 
   return (
-    <Box>
+    <Box mt={1}>
        <FormControl>
           <Select
             value={ingredient}
@@ -80,6 +80,8 @@ export default function FilterDropdown(props:IProps) {
               background: 'rgba(255, 255, 255, 0.9)',
               borderRadius: 16,
               border: '1px solid #dfe1e5',
+              fontSize: 12,
+              lineHeight: 1,
               // boxShadow: '0px 3px 8px 4px rgba(0, 0, 0, 0.05)',
               p: 0,
               '& .MuiOutlinedInput-notchedOutline': {
@@ -90,7 +92,7 @@ export default function FilterDropdown(props:IProps) {
             <MenuItem
               value=""
             >
-              <em>Ingrediente</em>
+              <p>Selecione o Nutriente</p>
             </MenuItem>
             {
               items.map((item) => (
@@ -98,7 +100,9 @@ export default function FilterDropdown(props:IProps) {
                   key={item}
                   value={item}
                 >
+                <p>
                   {item}
+                </p>
                 </MenuItem>
               ))
             }

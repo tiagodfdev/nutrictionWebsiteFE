@@ -12,6 +12,7 @@ const Header = () => (
       alignItems: 'center',
       mt: '1rem',
       backgroundColor: 'transparent',
+      width: '80%',
     }}
   >
     <Box
