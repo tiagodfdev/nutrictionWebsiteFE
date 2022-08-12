@@ -1,19 +1,20 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { IactionInput, IinputContent } from '../../../../types';
+import { DEFAULT_INGREDIENT } from '../../../../utils/consts';
 
 const initialState:IinputContent[] = [
   {
     name: 'ingredient',
-    value: 'proteína',
+    value: DEFAULT_INGREDIENT,
     isActive: undefined,
   },
   {
-    name: 'calorias',
+    name: 'Calorias',
     value: 0,
     isActive: false,
   },
   {
-    name: 'gorduras',
+    name: 'Lipídios Totais',
     value: 0,
     isActive: false,
   },
@@ -25,7 +26,6 @@ export const filterSlice = createSlice({
   initialState,
   reducers: {
     setFilter(state, action:IactionInput) {
-      console.log('dentro do reducer');
       const { name, value, isActive } = action.payload;
       const indexOfFilter = state.map((filter) => filter.name)
         .indexOf(name);
