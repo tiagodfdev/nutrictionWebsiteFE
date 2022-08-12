@@ -38,4 +38,4 @@ yarn-error.log*
 /network/
 
 # vscode
-.vscode
+/.vscode/

@@ -4,6 +4,7 @@ import CheckToInput from '../CheckToInput';
 import FilterDropdown from '../FilterDropdown';
 import MainLayout from '../Layout/MainLayout';
 import SearchBar, { ISearchBarProps } from '../SearchBar';
+import TopTable from '../TopTable';
 
 function HomeContent(props:ISearchBarProps) {
   const { data } = props;
@@ -12,8 +13,9 @@ function HomeContent(props:ISearchBarProps) {
       <SearchBar data={data} />
       <MainLayout>
         <FilterDropdown items={keys} />
-        <CheckToInput id='gorduras' label='Limitar gorduras' />
-        <CheckToInput id='calorias' label='Limitar calorias' />
+        <CheckToInput id='Lipídios Totais' label='Limitar gorduras' />
+        <CheckToInput id='Calorias' label='Limitar calorias' />
+        <TopTable data={data} />
       </MainLayout>
     </>
   );

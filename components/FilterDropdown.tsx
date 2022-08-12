@@ -6,6 +6,7 @@ import Select, { SelectChangeEvent } from '@mui/material/Select';
 import { useDispatch } from 'react-redux';
 import { IinputContent } from '../types';
 import { setFilter } from '../redux/reducer/features/filters/filtersSlice';
+import { DEFAULT_INGREDIENT } from '../utils/consts';
 
 interface IProps {
   items:string[]
@@ -29,9 +30,9 @@ const SelectDisplayProps = {
   },
 };
 
-export default function FilterDropdown(props:IProps) {
+function FilterDropdown(props:IProps) {
   const { items } = props;
-  const [ingredient, setIngredient] = React.useState('');
+  const [ingredient, setIngredient] = React.useState(DEFAULT_INGREDIENT);
 
   const dispatch = useDispatch();
 
@@ -49,7 +50,6 @@ export default function FilterDropdown(props:IProps) {
     };
     setIngredient(ingredientInput);
     handleDispacht(content);
-    console.log(`onBlur dispacht ${ingredientInput}`);
   };
 
   const handleChange = (event: SelectChangeEvent) => {
@@ -58,56 +58,52 @@ export default function FilterDropdown(props:IProps) {
 
   return (
     <Box mt={1}>
-       <FormControl>
-          <Select
-            value={ingredient}
-            onChange={handleChange}
-            displayEmpty
-            inputProps={{
-              'aria-label': 'Without label',
-            }}
-            SelectDisplayProps={SelectDisplayProps}
-            MenuProps={MenuProps}
-            sx={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'flex-start',
-              minWidth: 189,
-              minHeight: 42,
-              maxWidth: 297,
-              maxHeight: 59,
-              width: '50%',
-              background: 'rgba(255, 255, 255, 0.9)',
-              borderRadius: 16,
-              border: '1px solid #dfe1e5',
-              fontSize: 12,
-              lineHeight: 1,
-              // boxShadow: '0px 3px 8px 4px rgba(0, 0, 0, 0.05)',
-              p: 0,
-              '& .MuiOutlinedInput-notchedOutline': {
-                border: 0,
-              },
-            }}
-          >
-            <MenuItem
-              value=""
-            >
-              <p>Selecione o Nutriente</p>
-            </MenuItem>
-            {
-              items.map((item) => (
-                <MenuItem
-                  key={item}
-                  value={item}
-                >
-                <p>
-                  {item}
-                </p>
-                </MenuItem>
-              ))
-            }
-          </Select>
+      <FormControl>
+        <Select
+          value={ingredient}
+          onChange={handleChange}
+          displayEmpty
+          inputProps={{
+            'aria-label': 'Without label',
+          }}
+          SelectDisplayProps={SelectDisplayProps}
+          MenuProps={MenuProps}
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'flex-start',
+            minWidth: 189,
+            minHeight: 42,
+            maxWidth: 297,
+            maxHeight: 59,
+            width: '50%',
+            background: 'rgba(255, 255, 255, 0.9)',
+            borderRadius: 16,
+            border: '1px solid #dfe1e5',
+            fontSize: 12,
+            lineHeight: 1,
+            // boxShadow: '0px 3px 8px 4px rgba(0, 0, 0, 0.05)',
+            p: 0,
+            '& .MuiOutlinedInput-notchedOutline': {
+              border: 0,
+            },
+          }}
+        >
+          {
+            items.map((item) => (
+              <MenuItem
+                key={item}
+                value={item}
+              >
+              <p>
+                {item}
+              </p>
+              </MenuItem>
+            ))
+          }
+        </Select>
       </FormControl>
     </Box>
   );
 }
+export default FilterDropdown;
