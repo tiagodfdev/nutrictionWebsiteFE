@@ -6,10 +6,10 @@ import { useDispatch } from 'react-redux';
 import CheckboxCheck from '../assets/checkboxCheck';
 import CheckboxCircle from '../assets/checkboxCircle';
 import { setFilter } from '../redux/reducer/features/filters/filtersSlice';
-import { IinputContent } from '../types';
+import { IIngredients, IinputContent } from '../types';
 
 interface ICheckToInput {
-  id:string,
+  id:IIngredients,
   label:string
 }
 
@@ -37,7 +37,7 @@ function CheckToInput(props:ICheckToInput) {
       const content = {
         name: id,
         value: '',
-        isActive: isCheck,
+        isActive: false,
       };
       handleDispacht(content);
     } else {
@@ -45,7 +45,7 @@ function CheckToInput(props:ICheckToInput) {
       const content = {
         name: id,
         value: inputValue,
-        isActive: isCheck,
+        isActive: true,
       };
       handleDispacht(content);
     }
@@ -54,10 +54,9 @@ function CheckToInput(props:ICheckToInput) {
     const content = {
       name: id,
       value: inputValue,
-      isActive: isCheck,
+      isActive: true,
     };
     handleDispacht(content);
-    console.log(`onBlur dispacht ${inputValue}`);
   };
 
   return (
@@ -113,7 +112,7 @@ function CheckToInput(props:ICheckToInput) {
         id={id}
         disabled={!isCheck}
         inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }}
-        endAdornment={<InputAdornment position="end">g</InputAdornment>}
+        endAdornment={<InputAdornment position="end">{(id === 'Calorias') ? 'Kcal' : 'g'}</InputAdornment>}
         value={inputValue}
         sx={{
           px: '5px',
@@ -122,6 +121,11 @@ function CheckToInput(props:ICheckToInput) {
           backgroundColor: `${isCheck ? 'rgba(255, 255, 255, 0.5)' : '#B8B8B8'}`,
           height: '32px',
           ml: '5px',
+        }}
+        onKeyDown = {(e) => {
+          if (e.key === 'Enter') {
+            handleInputContent();
+          }
         }}
         onBlur = {handleInputContent}
         onChange = {handleInputChange}
