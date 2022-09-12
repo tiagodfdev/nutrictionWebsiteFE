@@ -7,6 +7,8 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { useSelector } from 'react-redux';
+import Link from 'next/link';
+import { Typography } from '@mui/material';
 import { RootState } from '../redux/store';
 import { ISearchBarProps } from './SearchBar';
 import ingredientKeyConverter from '../utils/features/ingredientKeyConverter';
@@ -17,9 +19,10 @@ import LinkIcon from '../assets/linkIcon';
 function createData(
   name: string,
   amount: string,
+  url: string,
 ) {
   return {
-    name, amount,
+    name, amount, url,
   };
 }
 
@@ -35,7 +38,7 @@ export default function TopTable(props:ISearchBarProps) {
   let elements = sortElements(parseProps);
   elements = elements.slice(0, 10);
   const rows = elements.map((element) => createData(
-    element.alimentoEPreparacao, element[parseProps.ingredient],
+    element.alimentoEPreparacao, element[parseProps.ingredient], element.pathUrl,
   ));
   const tableRender = () => {
     if (rows.length === 0) {
@@ -54,12 +57,23 @@ export default function TopTable(props:ISearchBarProps) {
         {rows.map((row) => (
           <TableRow
             key={row.name}
+            hover={true}
             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
           >
-            <TableCell component="th" scope="row">
-              {row.name}
+            <TableCell sx={{ textDecoration: 'none' }} component="th" scope="row">
+              <Link href={`item/${row.url}`}>
+                <Typography>
+                  {row.name}
+                </Typography>
+              </Link>
             </TableCell>
-            <TableCell align="right">{row.amount}&nbsp; <LinkIcon width={10} height={10} /></TableCell>
+            <TableCell align="right">
+             <Link href={`item/${row.url}`}>
+                <Typography>
+                  {row.amount}&nbsp; <LinkIcon width={10} height={10} />
+                </Typography>
+              </Link>
+            </TableCell>
           </TableRow>
         ))}
       </TableBody>
@@ -68,7 +82,7 @@ export default function TopTable(props:ISearchBarProps) {
   return (
     <TableContainer
         sx={{
-          width: '90%',
+          width: '100%',
           background: 'rgba(255,255,255,0.1)',
           boxShadow: '0px 3px 8px 4px rgba(0, 0, 0, 0.08)',
           borderRadius: 6,

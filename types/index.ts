@@ -47,6 +47,7 @@ export interface Iingredient {
     'vitaminaD-mcg': string,
     'vitaminaE-mg': string,
     'zinco-mg': string,
+    'pathUrl':string
 }
 export interface IarrayIngredients {
     [id:number]:Iingredient

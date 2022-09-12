@@ -2,10 +2,11 @@ import {
   Box, InputAdornment, OutlinedInput, Typography,
 } from '@mui/material';
 import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import CheckboxCheck from '../assets/checkboxCheck';
 import CheckboxCircle from '../assets/checkboxCircle';
 import { setFilter } from '../redux/reducer/features/filters/filtersSlice';
+import { RootState } from '../redux/store';
 import { IIngredients, IinputContent } from '../types';
 
 interface ICheckToInput {
@@ -14,9 +15,15 @@ interface ICheckToInput {
 }
 
 function CheckToInput(props:ICheckToInput) {
-  const [isCheck, setIsCheck] = useState(false);
-  const [inputValue, setInputValue] = useState<string|number>('');
   const { id, label } = props;
+  const filters = useSelector((state: RootState) => state.filterStates);
+  const identifyFilterByIndex = filters.findIndex((item) => (
+    item.name === id));
+  const defValue = filters[identifyFilterByIndex].value!;
+  const [isCheck, setIsCheck] = useState(filters[identifyFilterByIndex].isActive);
+  const [inputValue, setInputValue] = useState<string|number>(
+    ((defValue! === undefined) || defValue! === 0) ? '' : defValue!,
+  );
 
   const dispatch = useDispatch();
 
@@ -67,8 +74,8 @@ function CheckToInput(props:ICheckToInput) {
         justifyContent: 'flex-start',
         minWidth: 189,
         minHeight: 42,
-        maxWidth: 297,
-        maxHeight: 59,
+        maxWidth: 189,
+        maxHeight: 42,
         width: '50%',
         background: 'rgba(255, 255, 255, 0.9)',
         border: '1px solid #dfe1e5',

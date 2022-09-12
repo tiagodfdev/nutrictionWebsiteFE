@@ -1,3 +1,5 @@
+/* eslint-disable no-await-in-loop */
+/* eslint-disable no-restricted-syntax */
 import { InferGetStaticPropsType } from 'next';
 import React from 'react';
 import HomeContent from '../components/Pages/HomeContent';

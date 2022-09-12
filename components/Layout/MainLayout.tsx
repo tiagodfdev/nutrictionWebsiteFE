@@ -30,6 +30,10 @@ const MainLayout = ({ children }:PageProps) => (
         </svg>
     <Box
         sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
           width: '100%',
           height: 'auto',
           background: 'linear-gradient(90.06deg, rgba(32, 73, 7, 0.30) 0%, rgba(232, 135, 30, 0.30) 100%)',

@@ -9,7 +9,7 @@ const Main = ({ children }:PageProps) => (
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
-          alignItems: 'flex-start',
+          alignItems: 'center',
           width: '100%',
         }}
     >
