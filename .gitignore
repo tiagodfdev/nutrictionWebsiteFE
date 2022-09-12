@@ -35,7 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 
 # folders
-/network/
 
 # vscode
 /.vscode/
