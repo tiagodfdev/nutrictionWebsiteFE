@@ -8,7 +8,6 @@ import { Iingredient } from '../../types';
 
 class nutrictionDB {
   static async getAll():Promise<Iingredient[]> {
-    console.log(__dirname);
     const fileExists = fs.existsSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('.next')) - __dirname.length), 'utils/consts')}/data.json`);
     if (!fileExists) {
       try {
