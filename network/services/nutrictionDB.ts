@@ -8,10 +8,11 @@ import { Iingredient } from '../../types';
 
 class nutrictionDB {
   static async getAll():Promise<Iingredient[]> {
-    const fileExists = fs.existsSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('frontEnd/') + 9) - __dirname.length), 'utils/consts')}/data.json`);
+    console.log(__dirname);
+    const fileExists = fs.existsSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('.next')) - __dirname.length), 'utils/consts')}/data.json`);
     if (!fileExists) {
       try {
-        const fileContent = fs.readFileSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('frontEnd/') + 9) - __dirname.length), 'utils/consts')}/data.zip`);
+        const fileContent = fs.readFileSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('.next')) - __dirname.length), 'utils/consts')}/data.zip`);
         const jsZipInstance = new Jszip();
         const result = await jsZipInstance.loadAsync(fileContent);
         const keys = Object.keys(result.files);
@@ -21,8 +22,8 @@ class nutrictionDB {
           if (item.dir) {
             fs.mkdirSync(item.name);
           } else {
-            fs.writeFileSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('frontEnd/') + 9) - __dirname.length), 'utils/consts')}/${item.name}`, Buffer.from(await item.async('arraybuffer')));
-            dataResult = JSON.parse(fs.readFileSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('frontEnd/') + 9) - __dirname.length), 'utils/consts')}/data.json`, 'utf-8'));
+            fs.writeFileSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('.next')) - __dirname.length), 'utils/consts')}/${item.name}`, Buffer.from(await item.async('arraybuffer')));
+            dataResult = JSON.parse(fs.readFileSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('.next')) - __dirname.length), 'utils/consts')}/data.json`, 'utf-8'));
           }
         }
         return dataResult.nutrictionDb;
@@ -30,7 +31,7 @@ class nutrictionDB {
         return error;
       }
     } else {
-      return JSON.parse(fs.readFileSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('frontEnd/') + 9) - __dirname.length), 'utils/consts')}/data.json`, 'utf-8')).nutrictionDb;
+      return JSON.parse(fs.readFileSync(`${path.join(__dirname.slice(0, (__dirname.indexOf('.next')) - __dirname.length), 'utils/consts')}/data.json`, 'utf-8')).nutrictionDb;
     }
   }
 
