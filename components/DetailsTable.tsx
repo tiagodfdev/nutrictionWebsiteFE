@@ -3,14 +3,16 @@ import React from 'react';
 import {
   Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow,
 } from '@mui/material';
-import { InferGetStaticPropsType } from 'next';
 import { excludeOfTable } from '../config/config';
-import { getStaticProps } from '../pages';
-import { IkeyOfIngredients } from '../types';
+import { Iingredient, IkeyOfIngredients } from '../types';
 import vd from '../utils/consts/vd';
 import { getByValue } from '../utils/features/ingredientKeyConverter';
 
-const DetailsTable = ({ data }:InferGetStaticPropsType<typeof getStaticProps>) => {
+interface IProps {
+  data:Iingredient[]
+}
+
+const DetailsTable = ({ data }:IProps) => {
   const rowData = (data[0]);
   const keys:IkeyOfIngredients[] | string[] = Object.keys(vd);
   const bodyTable = () => keys.map((item) => {

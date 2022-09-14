@@ -1,13 +1,20 @@
 import { Box } from '@mui/material';
 import React from 'react';
+import { Iingredient, ISearchBarData } from '../../types';
 import { keys } from '../../utils/consts/ingredientMap';
 import CheckToInput from '../CheckToInput';
 import FilterDropdown from '../FilterDropdown';
 import MainLayout from '../Layout/MainLayout';
-import SearchBar, { ISearchBarProps } from '../SearchBar';
+import SearchBar from '../SearchBar';
 import TopTable from '../TopTable';
 
-function HomeContent(props:ISearchBarProps) {
+interface IProps {
+  data:{
+    allData:Iingredient[],
+    searchBarData:ISearchBarData[]
+  }
+}
+function HomeContent(props:IProps) {
   const { data } = props;
   return (
     <>
@@ -15,7 +22,7 @@ function HomeContent(props:ISearchBarProps) {
         display='flex'
         width='90%'
       >
-        <SearchBar data={data} />
+        <SearchBar data={data.searchBarData} />
       </Box>
       <MainLayout>
       <Box
@@ -41,7 +48,7 @@ function HomeContent(props:ISearchBarProps) {
           width='100%'
           mb={2}
         >
-          <TopTable data={data} />
+          <TopTable data={data.allData} />
         </Box>
         </Box>
       </MainLayout>

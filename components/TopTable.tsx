@@ -10,10 +10,9 @@ import { useSelector } from 'react-redux';
 import Link from 'next/link';
 import { Typography } from '@mui/material';
 import { RootState } from '../redux/store';
-import { ISearchBarProps } from './SearchBar';
 import ingredientKeyConverter from '../utils/features/ingredientKeyConverter';
 import sortElements, { IorderDirection } from '../utils/features/sortElements';
-import { IkeyOfIngredients } from '../types';
+import { Iingredient, IkeyOfIngredients } from '../types';
 import LinkIcon from '../assets/linkIcon';
 
 function createData(
@@ -25,8 +24,11 @@ function createData(
     name, amount, url,
   };
 }
+interface IProps {
+  data:Iingredient[]
+}
 
-export default function TopTable(props:ISearchBarProps) {
+export default function TopTable(props:IProps) {
   const filters = useSelector((state: RootState) => state.filterStates);
   const { data } = props;
   const parseProps = {

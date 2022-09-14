@@ -4,7 +4,7 @@
 import fs from 'fs';
 import path from 'path';
 import Jszip from 'jszip';
-import { Iingredient } from '../../types';
+import { IAllPaths, Iingredient, ISearchBarData } from '../../types';
 
 class nutrictionDB {
   static async getAll():Promise<Iingredient[]> {
@@ -46,6 +46,40 @@ class nutrictionDB {
       }
       // @ts-ignore
       return [objSearched];
+    } catch (error:any) {
+      return error;
+    }
+  }
+
+  static async getSearchBarData():Promise<ISearchBarData[]> {
+    try {
+      const allData:Iingredient[] = await this.getAll();
+      const searchBarData = allData.map((item) => {
+        const objToReturn = {
+          descricaoAlimento: item.descricaoAlimento,
+          alimentoEPreparacao: item.alimentoEPreparacao,
+          pathUrl: item.pathUrl,
+        };
+        return objToReturn;
+      });
+      // @ts-ignore
+      return searchBarData;
+    } catch (error:any) {
+      return error;
+    }
+  }
+
+  static async getAllPaths():Promise<IAllPaths[]> {
+    try {
+      const allData:Iingredient[] = await this.getAll();
+      const allPaths = allData.map((item) => {
+        const objToReturn = {
+          pathUrl: item.pathUrl,
+        };
+        return objToReturn;
+      });
+      // @ts-ignore
+      return allPaths;
     } catch (error:any) {
       return error;
     }

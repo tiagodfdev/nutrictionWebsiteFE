@@ -2,16 +2,16 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 import { Box } from '@mui/material';
-import { Iingredient } from '../types';
+import { ISearchBarData } from '../types';
 
 export interface ISearchBarProps {
-  data:Iingredient[]
+  data:ISearchBarData[]
 }
 function SearchBar(props:ISearchBarProps) {
   const { data } = props;
   const router = useRouter();
 
-  const handleOnSelect = (item: Iingredient) => {
+  const handleOnSelect = (item: ISearchBarData) => {
     router.push(`/item/${item.pathUrl}`);
   };
   return (
@@ -22,7 +22,7 @@ function SearchBar(props:ISearchBarProps) {
       }}
     >
       <ReactSearchAutocomplete
-        items={data.map((item: Iingredient) => item)}
+        items={data.map((item: ISearchBarData) => item)}
         fuseOptions={{ keys: ['descricaoAlimento'] }} // Search on both fields
         resultStringKeyName={'alimentoEPreparacao'} // String to display in the results
         onSelect={handleOnSelect}

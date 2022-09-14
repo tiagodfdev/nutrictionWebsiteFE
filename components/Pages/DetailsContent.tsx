@@ -13,7 +13,7 @@ const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>)
         display='flex'
         width='90%'
       >
-        <SearchBar data={data.allData} />
+        <SearchBar data={data.searchBarData} />
       </Box>
       <MainLayout>
         <Box

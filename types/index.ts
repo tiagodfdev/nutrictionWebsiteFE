@@ -172,6 +172,12 @@ export interface PageProps {
     children:React.ReactNode
 }
 
+export type ISearchBarData =
+    Pick<Iingredient, 'descricaoAlimento' | 'alimentoEPreparacao' | 'pathUrl'>
+
+export type IAllPaths =
+    Pick<Iingredient, 'pathUrl'>
+
 /** *************
  *
  * Redux Types

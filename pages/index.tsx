@@ -4,10 +4,19 @@ import { InferGetStaticPropsType } from 'next';
 import React from 'react';
 import HomeContent from '../components/Pages/HomeContent';
 import nutrictionDB from '../network/services/nutrictionDB';
-import { Iingredient } from '../types';
+import { Iingredient, ISearchBarData } from '../types';
 
 export const getStaticProps = async () => {
-  const data:Iingredient[] = await nutrictionDB.getAll();
+  const allData:Iingredient[] = await nutrictionDB.getAll();
+  const searchBarData:ISearchBarData[] = allData.map((item) => {
+    const objToReturn = {
+      descricaoAlimento: item.descricaoAlimento,
+      alimentoEPreparacao: item.alimentoEPreparacao,
+      pathUrl: item.pathUrl,
+    };
+    return objToReturn;
+  });
+  const data = { allData, searchBarData };
   return {
     props: {
       data,
