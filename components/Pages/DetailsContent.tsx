@@ -12,6 +12,9 @@ const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>)
       <Box
         display='flex'
         width='90%'
+        alignItems='center'
+        justifyContent='center'
+        mb= '10vw'
       >
         <SearchBar data={data.searchBarData} />
       </Box>
@@ -30,6 +33,8 @@ const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>)
           <Box
             display='flex'
             mb={2}
+            width='100%'
+            maxWidth='600px'
           >
             <DetailsTable data={data.pageData} />
           </Box>

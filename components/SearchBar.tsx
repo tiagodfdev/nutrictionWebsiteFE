@@ -1,12 +1,15 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete';
-import { Box } from '@mui/material';
+import {
+  Box,
+} from '@mui/material';
 import { ISearchBarData } from '../types';
 
 export interface ISearchBarProps {
   data:ISearchBarData[]
 }
+
 function SearchBar(props:ISearchBarProps) {
   const { data } = props;
   const router = useRouter();
@@ -19,6 +22,10 @@ function SearchBar(props:ISearchBarProps) {
       sx={{
         width: '100%',
         zIndex: 1,
+        maxWidth: '600px',
+        '& li': {
+          cursor: 'pointer',
+        },
       }}
     >
       <ReactSearchAutocomplete

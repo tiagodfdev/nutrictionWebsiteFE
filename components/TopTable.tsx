@@ -60,20 +60,24 @@ export default function TopTable(props:IProps) {
           <TableRow
             key={row.name}
             hover={true}
-            sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+            sx={{ '&:last-child td, &:last-child th': { border: 0 }, cursor: 'pointer' }}
           >
-            <TableCell sx={{ textDecoration: 'none' }} component="th" scope="row">
+            <TableCell component="th" scope="row">
               <Link href={`item/${row.url}`}>
-                <Typography>
-                  {row.name}
-                </Typography>
+                <a style={{ textDecoration: 'none', color: 'inherit' }}>
+                  <Typography>
+                    {row.name}
+                  </Typography>
+                </a>
               </Link>
             </TableCell>
             <TableCell align="right">
              <Link href={`item/${row.url}`}>
-                <Typography>
-                  {row.amount}&nbsp; <LinkIcon width={10} height={10} />
-                </Typography>
+                <a style={{ textDecoration: 'none', color: 'inherit' }}>
+                  <Typography>
+                    {row.amount}&nbsp; <LinkIcon width={10} height={10} />
+                  </Typography>
+                </a>
               </Link>
             </TableCell>
           </TableRow>

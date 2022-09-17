@@ -21,35 +21,39 @@ function HomeContent(props:IProps) {
       <Box
         display='flex'
         width='90%'
+        alignItems='center'
+        justifyContent='center'
+        mb= '10vw'
       >
         <SearchBar data={data.searchBarData} />
       </Box>
       <MainLayout>
-      <Box
-          display='flex'
-          flexDirection='column'
-          width='90%'
-          alignItems='flex-start'
-        >
         <Box
-          display='flex'
-          flexDirection='column'
-          width='100%'
-          alignItems='flex-start'
-          gap={1}
-          marginBottom={2}
-        >
-          <FilterDropdown items={keys} />
-          <CheckToInput id='Lipídios Totais' label='Limitar gorduras' />
-          <CheckToInput id='Calorias' label='Limitar calorias' />
-        </Box>
-        <Box
-          display='flex'
-          width='100%'
-          mb={2}
-        >
-          <TopTable data={data.allData} />
-        </Box>
+            display='flex'
+            flexDirection='column'
+            width='90%'
+            alignItems='flex-start'
+            maxWidth='600px'
+          >
+          <Box
+            display='flex'
+            flexDirection='column'
+            width='100%'
+            alignItems='flex-start'
+            gap={1}
+            marginBottom={2}
+          >
+            <FilterDropdown items={keys} />
+            <CheckToInput id='Lipídios Totais' label='Limitar gorduras' />
+            <CheckToInput id='Calorias' label='Limitar calorias' />
+          </Box>
+          <Box
+            display='flex'
+            width='100%'
+            mb={2}
+          >
+            <TopTable data={data.allData} />
+          </Box>
         </Box>
       </MainLayout>
     </>

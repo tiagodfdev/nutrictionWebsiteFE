@@ -93,6 +93,7 @@ function CheckToInput(props:ICheckToInput) {
           justifyContent: 'center',
           width: '10.6%',
           mr: '10px',
+          cursor: 'pointer',
         }}
       >
         <Box
@@ -106,7 +107,6 @@ function CheckToInput(props:ICheckToInput) {
           }}
         >
           {isCheck ? <CheckboxCheck width='100%' height='100%' stroke='#E8871E'/> : null}
-
         </Box>
         <CheckboxCircle stroke='#204907' />
       </Box>

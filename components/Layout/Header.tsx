@@ -11,20 +11,23 @@ const Header = () => (
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      mt: 1,
-      mb: 2,
+      mt: '10vw',
+      mb: '2vw',
       backgroundColor: 'transparent',
       width: '80%',
+      cursor: 'pointer',
     }}
   >
     <Link href='/'>
-    <Box
-        sx={{
-          display: 'flex',
-        }}
-    >
-        <Logo width='100%' height='100%' />
-    </Box>
+    <a>
+      <Box
+          sx={{
+            display: 'flex',
+          }}
+      >
+          <Logo width='100%' height='100%' />
+      </Box>
+    </a>
     </Link>
   </Box>
 );

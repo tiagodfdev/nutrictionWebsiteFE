@@ -3,10 +3,10 @@ import {
   Box, FormControl, MenuItem,
 } from '@mui/material';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { IinputContent } from '../types';
 import { setFilter } from '../redux/reducer/features/filters/filtersSlice';
-import { DEFAULT_INGREDIENT } from '../utils/consts';
+import { RootState } from '../redux/store';
 
 interface IProps {
   items:string[]
@@ -32,7 +32,8 @@ const SelectDisplayProps = {
 
 function FilterDropdown(props:IProps) {
   const { items } = props;
-  const [ingredient, setIngredient] = React.useState(DEFAULT_INGREDIENT);
+  const filters = useSelector((state: RootState) => state.filterStates);
+  const [ingredient, setIngredient] = React.useState(filters[0].value as string);
 
   const dispatch = useDispatch();
 
