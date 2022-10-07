@@ -2,6 +2,7 @@
 import React from 'react';
 import { InferGetStaticPropsType } from 'next';
 import { Box, Typography } from '@mui/material';
+import Head from 'next/head';
 import { getStaticProps } from '../../pages/item/[pathsUrl]';
 import DetailsTable from '../DetailsTable';
 import MainLayout from '../Layout/MainLayout';
@@ -9,6 +10,9 @@ import SearchBar from '../SearchBar';
 
 const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>) => (
     <>
+      <Head>
+        <title>{`Informações Nutricionais - ${data.pageData[0].alimentoEPreparacao}`}</title>
+      </Head>
       <Box
         display='flex'
         width='90%'

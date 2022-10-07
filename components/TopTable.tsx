@@ -63,7 +63,7 @@ export default function TopTable(props:IProps) {
             sx={{ '&:last-child td, &:last-child th': { border: 0 }, cursor: 'pointer' }}
           >
             <TableCell component="th" scope="row">
-              <Link href={`item/${row.url}`}>
+              <Link href={`/item/${row.url}`}>
                 <a style={{ textDecoration: 'none', color: 'inherit' }}>
                   <Typography>
                     {row.name}
@@ -72,7 +72,7 @@ export default function TopTable(props:IProps) {
               </Link>
             </TableCell>
             <TableCell align="right">
-             <Link href={`item/${row.url}`}>
+             <Link href={`/item/${row.url}`}>
                 <a style={{ textDecoration: 'none', color: 'inherit' }}>
                   <Typography>
                     {row.amount}&nbsp; <LinkIcon width={10} height={10} />

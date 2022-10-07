@@ -1,4 +1,5 @@
 import { Box } from '@mui/material';
+import Head from 'next/head';
 import React from 'react';
 import { Iingredient, ISearchBarData } from '../../types';
 import { keys } from '../../utils/consts/ingredientMap';
@@ -18,6 +19,9 @@ function HomeContent(props:IProps) {
   const { data } = props;
   return (
     <>
+      <Head>
+        <title>Informações Nutricionais</title>
+      </Head>
       <Box
         display='flex'
         width='90%'
