@@ -29,7 +29,7 @@ const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>)
               "sodiumContent": "${data.pageData[0]['sodio-mg'] === '-' ? '0' : data.pageData[0]['sodio-mg']} mg",
               "sugarContent": "${data.pageData[0]['acucarTotal-g'] === '-' ? '0' : data.pageData[0]['acucarTotal-g']} g",
               "transFatContent": "${data.pageData[0]['gorduraTransTotal-g'] === '-' ? '0' : data.pageData[0]['gorduraTransTotal-g']} g",
-              "unsaturatedFatContent": "${data.pageData[0]['gorduraPolissaturada-g'] + data.pageData[0]['gorduraMonossaturada-g'] === '-' ? '0' : data.pageData[0]['gorduraPolissaturada-g'] + data.pageData[0]['gorduraMonossaturada-g']} g",
+              "unsaturatedFatContent": "${data.pageData[0]['gorduraPolissaturada-g'] + data.pageData[0]['gorduraMonossaturada-g'] === '-' ? '0' : data.pageData[0]['gorduraPolissaturada-g'] + data.pageData[0]['gorduraMonossaturada-g']} g"
             }
           `}
         </script>
