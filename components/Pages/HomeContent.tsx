@@ -36,6 +36,7 @@ function HomeContent(props:IProps) {
                   "urlTemplate": "https://nutriction-website-fe.vercel.app/item/{search-term}"
                 },
                 "query-input": "required name=search-term"
+              }
             }
           `}
         </script>
