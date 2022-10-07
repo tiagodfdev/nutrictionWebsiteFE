@@ -21,6 +21,24 @@ function HomeContent(props:IProps) {
     <>
       <Head>
         <title>Informações Nutricionais</title>
+        <meta name='description' content='Encontre informações nutricionais referentes a maioria dos alimentos consumidos por brasileiros' />
+        <script type='application/ld+json'>
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Informações Nutricionais HomePage",
+              "url": "https://nutriction-website-fe.vercel.app/",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://nutriction-website-fe.vercel.app/item/{search-term}",
+                },
+                "query-input": "required name=search-term"
+            }
+          `}
+        </script>
       </Head>
       <Box
         display='flex'

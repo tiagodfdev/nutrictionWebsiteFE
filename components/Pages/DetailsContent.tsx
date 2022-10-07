@@ -12,6 +12,27 @@ const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>)
     <>
       <Head>
         <title>{`Informações Nutricionais - ${data.pageData[0].alimentoEPreparacao}`}</title>
+        <meta name='description' content={`Informação Nutricional de ${data.pageData[0].alimentoEPreparacao}`} />
+        <script type='application/ld+json'>
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "NutritionInformation",
+              "name": "${data.pageData[0].alimentoEPreparacao}",
+              "calories": ${data.pageData[0]['energia-kcal']} calorias,
+              "carbohydrateContent": ${data.pageData[0]['carboidrato-g']} g,
+              "cholesterolContent": ${data.pageData[0]['colesterol-mg']} mg,
+              "fatContent": ${data.pageData[0]['lipidiosTotais-g']} mg,
+              "fiberContent": ${data.pageData[0]['fibraTotal-g']} g,
+              "proteinContent": ${data.pageData[0]['proteina-g']} g,
+              "saturatedFatContent": ${data.pageData[0]['gorduraSaturados-g']} g,
+              "sodiumContent": ${data.pageData[0]['sodio-mg']} mg,
+              "sugarContent": ${data.pageData[0]['acucarTotal-g']} g,
+              "transFatContent": ${data.pageData[0]['gorduraTransTotal-g']} g,
+              "unsaturatedFatContent": ${data.pageData[0]['gorduraPolissaturada-g'] + data.pageData[0]['gorduraMonossaturada-g']} g,
+            }
+          `}
+        </script>
       </Head>
       <Box
         display='flex'

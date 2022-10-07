@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint"
   },
@@ -15,6 +16,7 @@
     "@reduxjs/toolkit": "^1.8.2",
     "jszip": "^3.10.1",
     "next": "12.1.5",
+    "next-sitemap": "^3.1.23",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-redux": "^8.0.2",
