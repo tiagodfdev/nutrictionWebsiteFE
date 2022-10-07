@@ -33,7 +33,7 @@ function HomeContent(props:IProps) {
                 "@type": "SearchAction",
                 "target": {
                   "@type": "EntryPoint",
-                  "urlTemplate": "https://nutriction-website-fe.vercel.app/item/{search-term}",
+                  "urlTemplate": "https://nutriction-website-fe.vercel.app/item/{search-term}"
                 },
                 "query-input": "required name=search-term"
             }
