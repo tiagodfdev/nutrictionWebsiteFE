@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
-      <meta name="google-site-verification" content="X9mfmjKPEPA40UxNXKLKV1m9g6gMB8ThvMYYa970T2g" />
+      <meta name="google-site-verification" content="kxT_b2CFU-SEjcuM4IYYSMf3HpDFF8JYwTje738p2TM" />
       </Head>
       <Layout>
         <CssBaseline />
