@@ -50,7 +50,7 @@ sx={{
     {new Date().getFullYear()}&nbsp;&copy;&nbsp;All rights reserved
   </Typography>
   <Typography color='#999' marginY={0.5}>
-    <Link href='mailto:tiagodfdev@gmail.com?subject=Vamos trabalhar juntos?&body=Olá Tiago, gostaria de saber como estabelecer contato com você, meu telefone é:' color='inherit' target='_blank'>@tiagodfdev</Link>
+    Desenvolvido por: <Link href='mailto:tiagodfdev@gmail.com?subject=Vamos trabalhar juntos?&body=Olá Tiago, gostaria de saber como estabelecer contato com você, meu telefone é:' color='inherit' target='_blank'>@tiagodfdev</Link>
   </Typography>
 </Box>;
 
