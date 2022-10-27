@@ -22,7 +22,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export async function getStaticProps({ params }:any) {
   const pageData:Iingredient[] = await nutrictionDB.getOneByUrl(params!.pathsUrl as string);
   const searchBarData:ISearchBarData[] = await nutrictionDB.getSearchBarData();
-  const data = { pageData, searchBarData };
+  const pathUrl:string = params!.pathsUrl;
+  const data = { pageData, searchBarData, pathUrl };
   return { props: { data } };
 }
 

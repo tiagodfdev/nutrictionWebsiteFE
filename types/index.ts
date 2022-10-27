@@ -92,18 +92,18 @@ export type IkeyOfIngredients =
 'zinco-mg'
 
 export type IIngredients =
-'Ácido Linoleico'|
+  'Ácido Linoleico'|
   'Ácido Linolênico'|
   'Açúcar Total'|
   'Cálcio'|
   'Carboidrato'|
-  'Cobalamina'|
+  'Vitamina B12'|
   'Cobre'|
   'Colesterol'|
   'Calorias'|
   'Ferro'|
   'Fibra Total'|
-  'Folato DFE'|
+  'Vitamina B9 DFE'|
   'Fósforo'|
   'Gordura Monossaturada'|
   'Gordura Polissaturada'|
@@ -112,16 +112,16 @@ export type IIngredients =
   'Lipídios Totais'|
   'Magnésio'|
   'Manganês'|
-  'Niacina NE'|
-  'Niacina'|
-  'Piridoxina'|
+  'Vitamina B3 NE'|
+  'Vitamina B3'|
+  'Vitamina B6'|
   'Potássio'|
   'Proteína'|
   'Retinol'|
-  'Riboflavina'|
+  'Vitamina B2'|
   'Selênio'|
   'Sódio'|
-  'Tiamina'|
+  'Vitamina B1'|
   'Vitamina A'|
   'Vitamina C'|
   'Vitamina D'|

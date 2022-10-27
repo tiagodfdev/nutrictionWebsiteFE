@@ -21,23 +21,35 @@ function HomeContent(props:IProps) {
     <>
       <Head>
         <title>Informações Nutricionais</title>
-        <meta name='description' content='Encontre informações nutricionais referentes a maioria dos alimentos consumidos por brasileiros' />
+        <meta name='description' content='Encontre as informações nutricionais referentes a maioria dos alimentos consumidos pelos brasileiros e brasileiras' />
         <script type='application/ld+json'>
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "url": "https://nutriction-website-fe.vercel.app/",
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://nutriction-website-fe.vercel.app/item/{search_term_string}"
-                },
-                "query-input": "required name=search_term_string"
+          {`[
+              {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "url": "https://www.informacoesnutricionais.com.br/",
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.informacoesnutricionais.com.br/item/{search_term_string}"
+                  },
+                  "query-input": "required name=search_term_string"
+                }
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                  "@type": "Question",
+                  "name": "Onde encontrar as informações nutricionais dos alimentos mais consumidos pelos brasileiros?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "<p>No site <a href=https://www.informacoesnutricionais.com.br>https://www.informacoesnutricionais.com.br</a> você pode encontrar as informações dos principais alimentos consumidos no Brasil</p>"
+                  }
+                }]
               }
-            }
-        
+            ]
           `}
         </script>
       </Head>
@@ -46,7 +58,7 @@ function HomeContent(props:IProps) {
         width='90%'
         alignItems='center'
         justifyContent='center'
-        mb= '10vw'
+        mb= '6vw'
       >
         <SearchBar data={data.searchBarData} />
       </Box>

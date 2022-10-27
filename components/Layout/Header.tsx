@@ -11,7 +11,7 @@ const Header = () => (
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      mt: '10vw',
+      mt: '5vw',
       mb: '2vw',
       backgroundColor: 'transparent',
       width: '80%',

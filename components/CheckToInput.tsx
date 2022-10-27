@@ -36,7 +36,9 @@ function CheckToInput(props:ICheckToInput) {
   };
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setInputValue(event.target.value);
+    if (!event.target.value.match('\\D')) {
+      setInputValue(event.target.value);
+    }
   };
   const handleCheckChange = () => {
     if (isCheck) {
