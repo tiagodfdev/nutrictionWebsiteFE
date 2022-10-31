@@ -132,6 +132,14 @@ const DetailsTable = ({ data }:IProps) => {
             {bodyTable()}
           </TableBody>
         </Table>
+        <Typography ml={2} mt={5} fontSize={10} >
+          * Valores diários de reeferência com base em uma dieta de 2000kcal ou 8400kJ.
+          Seus valores diários podem ser maiores ou menores
+          dependendo de suas necessidades energéticas.
+        </Typography>
+        <Typography ml={2} mb={2} fontSize={10} >
+          ** VD não estabelecido
+        </Typography>
       </TableContainer>
     </Box>
   );
