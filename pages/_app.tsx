@@ -6,12 +6,13 @@ import Head from 'next/head';
 import Layout from '../components/Layout/Layout';
 import theme from '../styles/theme';
 import { store } from '../redux/store';
+import { config } from '../config/config';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
     <noscript dangerouslySetInnerHTML={{
-      __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZCW3DK"
+      __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${config.gtm}"
         height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}>
       </iframe>`,
     }} >
