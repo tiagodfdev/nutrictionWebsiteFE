@@ -1,15 +1,10 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "informações Nutricionais",
+    "short_name": "IN",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/android-chrome-512x512.png",
-            "sizes": "512x512",
+            "src": "/favicon.png",
+            "sizes": "96x96",
             "type": "image/png"
         }
     ],

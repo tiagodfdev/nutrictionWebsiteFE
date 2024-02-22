@@ -6,13 +6,15 @@ import {
   OutlinedInput,
   Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography,
 } from '@mui/material';
+import router from 'next/router';
 import { excludeOfTable } from '../config/config';
 import { Iingredient, IkeyOfIngredients } from '../types';
 import vd from '../utils/consts/vd';
-import { getByValue } from '../utils/features/ingredientKeyConverter';
+import { getByValue } from '../utils/functions/ingredientKeyConverter';
+import nutrientKeyConverter from '../utils/functions/getNutrientUrlByValue';
 
 interface IProps {
-  data:Iingredient[]
+  data:Iingredient
 }
 
 const DetailsTable = ({ data }:IProps) => {
@@ -24,6 +26,8 @@ const DetailsTable = ({ data }:IProps) => {
       setInputValue(event.target.value);
     }
   };
+
+  const handleUrlNutrient = (url:string) => router.push(`/nutriente/${url}`);
 
   const handleInputContent = () => {
     if ((inputValue.length !== 0)) {
@@ -38,7 +42,7 @@ const DetailsTable = ({ data }:IProps) => {
       setSelectedValue('1');
     }
   };
-  const rowData = (data[0]);
+  const rowData = (data);
   const keys:IkeyOfIngredients[] | string[] = Object.keys(vd);
   const bodyTable = () => keys.map((item) => {
     if (excludeOfTable.includes(item)) { return null; }
@@ -47,15 +51,34 @@ const DetailsTable = ({ data }:IProps) => {
           key={item} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
           >
           <TableCell component="th" scope="row" align='left'>
-            {getByValue(item)}
+            {nutrientKeyConverter(item as IkeyOfIngredients)
+              ? <p
+              style={{
+                fontWeight: 400,
+                fontSize: '0.875rem',
+                lineHeight: '1.43',
+                display: 'table-cell',
+                verticalAlign: 'inherit',
+                textAlign: 'left',
+                padding: '0px',
+                color: 'rgba(0, 0, 0, 0.87)',
+                cursor: 'pointer',
+                textDecoration: 'underline',
+              }}
+              onClick={() => handleUrlNutrient(nutrientKeyConverter(item as IkeyOfIngredients)!)}
+            >
+              {getByValue(item)}
+            </p>
+              : getByValue(item)}
           </TableCell>
           <TableCell component="th" scope="row" align='center'>
-            {(rowData[item as IkeyOfIngredients] === '-') ? `${(0).toFixed(2).toString()} ${item.slice(item.lastIndexOf('-')! + 1)}` : `${(parseInt(rowData[item as IkeyOfIngredients], 10) * (parseInt(selectedValue, 10) / 100)).toFixed(2)} ${item.slice(item.lastIndexOf('-')! + 1)}`}
+            {(rowData[item as IkeyOfIngredients] === '-') ? `${(0).toFixed(2).toString()} ${item.slice(item.lastIndexOf('-')! + 1)}` : `${(parseFloat(rowData[item as IkeyOfIngredients]) * (parseInt(selectedValue, 10) / 100)).toFixed(2)} ${item.slice(item.lastIndexOf('-')! + 1)}`}
           </TableCell>
           <TableCell component="th" scope="row" align='center'>
-            {(parseInt(vd[item as IkeyOfIngredients], 10) === 0) ? '**'
+            {(parseInt(vd[item as IkeyOfIngredients], 10) === 0)
+              ? '**'
               : ((rowData[item as IkeyOfIngredients]) !== '-')
-                ? `${((((parseInt(rowData[item as IkeyOfIngredients], 10) * (parseInt(selectedValue, 10) / 100)) / parseInt(vd[item as IkeyOfIngredients], 10)) * 100)).toFixed(2)}%`
+                ? `${((((parseInt(rowData[item as IkeyOfIngredients], 10) * (parseInt(selectedValue, 10) / 100)) / parseFloat(vd[item as IkeyOfIngredients])) * 100)).toFixed(2)}%`
                 : `${(0).toFixed(2)}%`
             }
           </TableCell>
@@ -90,7 +113,7 @@ const DetailsTable = ({ data }:IProps) => {
             sx={{
               px: '5px',
               transition: 'background-color 0.1s',
-              borderRadius: 16,
+              borderRadius: 4,
               backgroundColor: 'rgba(255, 255, 255, 0.5)',
               height: '32px',
               ml: '5px',
@@ -108,10 +131,9 @@ const DetailsTable = ({ data }:IProps) => {
       <TableContainer
           sx={{
             width: '100%',
-            background: 'rgba(255,255,255,0.1)',
-            boxShadow: '0px 3px 8px 4px rgba(0, 0, 0, 0.08)',
-            borderRadius: 6,
-            backdropFilter: 'blur(23px)',
+            background: 'transparent',
+            border: '1px solid #e0e0e0',
+            borderRadius: 1,
           }}
           component={Paper}
       >

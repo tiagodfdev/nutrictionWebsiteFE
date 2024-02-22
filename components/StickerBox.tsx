@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 import { Iingredient } from '../types';
 import Sticker from './Sticker';
 import vd from '../utils/consts/vd';
-import { getByValue } from '../utils/features/ingredientKeyConverter';
+import { getByValue } from '../utils/functions/ingredientKeyConverter';
 
 const minerals = [
   'calcio-mg', 'magnesio-mg', 'manganes-mg',

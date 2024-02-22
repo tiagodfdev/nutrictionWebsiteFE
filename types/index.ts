@@ -109,7 +109,7 @@ export type IIngredients =
   'Gordura Polissaturada'|
   'Gordura Saturados'|
   'Gordura Trans Total'|
-  'Lipídios Totais'|
+  'Gorduras Totais'|
   'Magnésio'|
   'Manganês'|
   'Vitamina B3 NE'|
@@ -169,6 +169,7 @@ export type ItypeOfFood =
 IfoodToEat | IfoodToDrink | IfoodToEatOrDrink | IfoodToSeason
 
 export interface PageProps {
+    searchBarData?:ISearchBarData[],
     children:React.ReactNode
 }
 
@@ -176,8 +177,32 @@ export type ISearchBarData =
     Pick<Iingredient, 'descricaoAlimento' | 'alimentoEPreparacao' | 'pathUrl'>
 
 export type IAllPaths =
-    Pick<Iingredient, 'pathUrl'>
+    Pick<Iingredient, 'pathUrl'>[] | Pick<NutrientDB, 'url'>[]
 
+export interface NutrientDB {
+    url: string,
+  title: string,
+  intro: string,
+  topics: [
+    {
+      subtitle: string,
+      description: string,
+      pros: string[],
+      cons: string[],
+      recommended_amout: string
+    },
+    {
+      subtitle: string,
+      description: string,
+      foods: {
+        novegan: string[],
+        vegan: string[]
+      }
+    }
+  ],
+  conclusion: string,
+  references: string[]
+}
 /** *************
  *
  * Redux Types

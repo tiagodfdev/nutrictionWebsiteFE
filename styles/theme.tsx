@@ -1,14 +1,24 @@
 import { createTheme } from '@mui/material';
+import { ptBR } from '@mui/x-data-grid';
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#204907',
+      main: '#D5E4C1',
     },
     secondary: {
-      main: '#E8871E',
-    },
+      main: '#EF959D',
+    }
   },
-});
+  typography: {
+    fontFamily: [
+      '-apple-system',
+      '"IBM Plex Sans"',
+      'Roboto',
+      '"General Sans"',
+    ].join(','),
+  },
+},
+ptBR);
 
 export default theme;

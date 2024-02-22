@@ -6,7 +6,8 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:diff/diff"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -22,7 +23,7 @@
     ],
     "rules": {
         "import/extensions": "off",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx",".tsx"] }],
+        "react/jsx-filename-extension": [1, { "extensions": [".jsx",".tsx"] }],
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": ["error"]
     },

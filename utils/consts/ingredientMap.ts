@@ -18,7 +18,7 @@ export const keys:IIngredients[] = [
   'Gordura Polissaturada',
   'Gordura Saturados',
   'Gordura Trans Total',
-  'Lipídios Totais',
+  'Gorduras Totais',
   'Magnésio',
   'Manganês',
   'Vitamina B3 NE',
@@ -37,7 +37,7 @@ export const keys:IIngredients[] = [
   'Vitamina E',
   'Zinco',
 ];
-const values:IkeyOfIngredients[] = [
+export const values:IkeyOfIngredients[] = [
   'acidoLinoleico-g',
   'acidoLinolenico-g',
   'acucarTotal-g',

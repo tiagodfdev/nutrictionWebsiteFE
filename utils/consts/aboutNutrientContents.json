@@ -1,518 +1,1572 @@
 [
+{
+  "url": "acido-linoleico",
+  "title": "Ácido linoleico: Benefícios e alimentos ricos.",
+  "intro": "O ácido linoleico é um ácido graxo essencial ômega-6 que desempenha um papel importante na saúde humana.",
+  "topics": [
     {
-        "url": "acido_linoleico",
-        "title": "Qual a função do Ácido Linoleico no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O Ácido Linoleico é um nutriente essencial para o corpo humano, desempenhando papéis importantes na saúde e no funcionamento adequado do organismo.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do Ácido Linoleico no nosso corpo?",
-                "description": "O Ácido Linoleico desempenha um papel fundamental na formação das membranas celulares, no metabolismo energético, na regulação do sistema imunológico e na saúde da pele. Além disso, estudos sugerem que o Ácido Linoleico pode ter efeitos positivos na redução do risco de doenças cardiovasculares e inflamatórias. No entanto, o consumo excessivo de Ácido Linoleico pode resultar em desequilíbrios nas proporções de ácidos graxos essenciais, como Ômega-6 e Ômega-3, podendo contribuir para a inflamação crônica e aumentar o risco de certas doenças."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Ácido Linoleico?",
-                "description": "Óleos vegetais, como óleo de girassol, óleo de milho, óleo de cártamo e óleo de soja, são fontes concentradas de Ácido Linoleico. Além disso, sementes e nozes, como sementes de girassol, sementes de linhaça, amêndoas e castanhas, são boas opções para aumentar a ingestão desse nutriente. Outros alimentos que contêm Ácido Linoleico incluem carne bovina, ovos, laticínios e certos peixes."
-            }
-        ],
-        "conclusion":"O Ácido Linoleico desempenha um papel importante no corpo humano, sendo essencial para a saúde celular, o metabolismo energético e a função do sistema imunológico. É recomendado obter esse nutriente através de uma alimentação equilibrada, incluindo alimentos ricos em Ácido Linoleico. No entanto, é fundamental manter um equilíbrio adequado entre a ingestão de ácidos graxos Ômega-6 e Ômega-3, evitando o consumo excessivo de Ácido Linoleico, que pode levar a desequilíbrios e riscos à saúde. Consultar um profissional de saúde ou nutricionista pode auxiliar na elaboração de uma dieta adequada e balanceada, visando a obtenção dos benefícios desse nutriente de forma segura."
+      "subtitle": "Quais as funções do ácido linoleico no nosso corpo?",
+      "description": "O ácido linoleico é um ácido graxo essencial, o que significa que o corpo não pode produzi-lo e precisa ser obtido da dieta. Ele desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Formação de membranas celulares: O ácido linoleico ajuda a manter as membranas celulares saudáveis e flexíveis.",
+        "Síntese de hormônios: O ácido linoleico é necessário para a produção de hormônios que desempenham um papel importante em uma variedade de funções, incluindo a inflamação, a coagulação sanguínea e a resposta imune.",
+        "Função imunológica: O ácido linoleico ajuda o corpo a combater infecções.",
+        "Produção de energia: O ácido linoleico pode ser usado como fonte de energia."
+      ],
+      "cons": [
+        "Excesso de inflamação: O consumo excessivo de ácido linoleico pode levar a um aumento da inflamação no corpo.",
+        "Aumento do risco de doenças cardíacas: O consumo excessivo de ácido linoleico pode aumentar o risco de doenças cardíacas.",
+        "Predisposição a doenças autoimunes: O consumo excessivo de ácido linoleico pode aumentar a predisposição a doenças autoimunes."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que os adultos consumam cerca de 17 gramas de ácido linoleico por dia."
     },
     {
-        "url": "acido_linolenico",
-        "title": "Qual a função do Ácido Linolênico no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O Ácido Linolênico é um nutriente essencial para o corpo humano, desempenhando um papel importante na saúde e no funcionamento adequado do organismo.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do Ácido Linolênico no nosso corpo?",
-                "description": "O Ácido Linolênico é um ácido graxo Ômega-3 que possui benefícios significativos para a saúde. Ele é conhecido por ter propriedades anti-inflamatórias e contribuir para a saúde cardiovascular, além de desempenhar um papel essencial no desenvolvimento do sistema nervoso. No entanto, o excesso de consumo de Ácido Linolênico pode ter efeitos anticoagulantes e interferir na coagulação sanguínea, aumentando o risco de sangramentos. É importante manter um equilíbrio adequado na ingestão de ácidos graxos Ômega-3 e seguir as recomendações nutricionais."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Ácido Linolênico?",
-                "description": "Alimentos marinhos, como peixes gordurosos (salmão, sardinha, cavala), são excelentes fontes de Ácido Linolênico. Além disso, sementes de linhaça, chia, nozes, óleo de linhaça e óleo de canola também são ricos nesse nutriente. Vegetais de folhas verde-escuras, como espinafre e couve, também podem contribuir para a ingestão de Ácido Linolênico."
-            }
-        ],
-        "conclusion":"O Ácido Linolênico, um ácido graxo Ômega-3, desempenha um papel crucial na saúde humana, contribuindo para a saúde cardiovascular, a função cerebral e o combate à inflamação. É essencial obter esse nutriente por meio de uma alimentação equilibrada, incluindo alimentos ricos em Ácido Linolênico. No entanto, é importante evitar o consumo excessivo, pois pode interferir na coagulação sanguínea. Consultar um profissional de saúde ou nutricionista é recomendado para determinar as necessidades individuais e garantir uma ingestão adequada e segura desse importante nutriente."
-    },
-    {
-        "url": "acucar",
-        "title": "Qual a função do Açucar no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O açúcar é um nutriente importante para o corpo humano, pois fornece energia necessária para o funcionamento adequado do organismo.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do Açucar no nosso corpo?",
-                "description": "O açúcar é uma fonte rápida de energia para o corpo e desempenha um papel importante no fornecimento de combustível para o cérebro e os músculos. No entanto, o consumo excessivo de açúcar, especialmente na forma de açúcares adicionados em alimentos processados, está associado a diversos problemas de saúde, como obesidade, diabetes tipo 2, doenças cardíacas e cáries dentárias. É recomendado limitar o consumo de açúcar refinado e buscar alternativas mais saudáveis para adoçar os alimentos."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Açucar?",
-                "description": "Alimentos açucarados, como doces, refrigerantes, sucos adoçados, bolos e biscoitos, são fontes comuns de açúcar adicionado. Além disso, algumas frutas, como bananas e uvas, contêm açúcares naturais. É importante lembrar que alimentos processados, mesmo aqueles não doces, muitas vezes contêm açúcares adicionados em suas composições."
-            }
-        ],
-        "conclusion":"O açúcar é uma fonte de energia importante para o corpo humano, porém, o consumo excessivo de açúcar adicionado pode levar a problemas de saúde, como obesidade e doenças crônicas. É recomendado limitar o consumo de açúcar refinado e optar por alternativas mais saudáveis, como frutas frescas ou adoçantes naturais em moderação. Uma alimentação equilibrada, com foco em alimentos naturais e minimamente processados, contribui para uma saúde melhor e uma ingestão adequada de açúcar. É sempre importante buscar orientação de um profissional de saúde ou nutricionista para personalizar a dieta de acordo com as necessidades individuais."
-    },
-    {
-        "url": "calcio",
-        "title": "Qual a função do Cálcio no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O cálcio é um nutriente essencial para o corpo humano, desempenhando um papel fundamental na saúde dos ossos, dentes e outras funções vitais.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do Cálcio no nosso corpo?",
-                "description": "O cálcio é essencial para a formação e manutenção dos ossos e dentes saudáveis, além de desempenhar um papel crucial na contração muscular, na transmissão de sinais nervosos e na coagulação sanguínea. Uma ingestão adequada de cálcio ao longo da vida pode ajudar a prevenir a osteoporose e reduzir o risco de fraturas ósseas. No entanto, o consumo excessivo de cálcio através de suplementos pode estar associado a efeitos adversos, como problemas renais e acúmulo de cálcio em outros tecidos do corpo. É importante obter o cálcio necessário através de uma dieta equilibrada."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Cálcio?",
-                "description": "Laticínios, como leite, queijo e iogurte, são conhecidos por serem boas fontes de cálcio. Além disso, vegetais de folhas verde-escuras, como couve, brócolis e espinafre, também contêm quantidades significativas de cálcio. Sementes de gergelim, amêndoas, feijões e peixes enlatados com ossos, como sardinhas, são outras opções para aumentar a ingestão de cálcio."
-            }
-        ],
-        "conclusion":"O cálcio desempenha um papel vital no corpo humano, sendo essencial para a saúde óssea, a função muscular e nervosa e a coagulação sanguínea. É importante obter cálcio através de uma dieta equilibrada, incluindo alimentos ricos nesse nutriente. O consumo excessivo de cálcio através de suplementos deve ser evitado, pois pode ter efeitos adversos. Consultar um profissional de saúde ou nutricionista pode ajudar a determinar as necessidades individuais de cálcio e desenvolver uma dieta adequada para promover a saúde óssea e geral."
-    },
-    {
-        "url": "carboidrato",
-        "title": "Qual a função do Carboidrato no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "Os carboidratos são nutrientes essenciais para o corpo, fornecendo energia necessária para o funcionamento adequado do organismo.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do Carboidrato no nosso corpo?",
-                "description": "Os carboidratos são a principal fonte de energia do corpo, sendo utilizados para atividades físicas, funcionamento cerebral e manutenção das funções vitais. Eles desempenham um papel crucial no fornecimento de glicose, que é a forma de energia preferida pelo organismo. No entanto, o consumo excessivo de carboidratos refinados e açúcares adicionados pode levar ao ganho de peso, aumento do risco de diabetes tipo 2 e doenças cardíacas. É importante escolher fontes saudáveis de carboidratos, como grãos integrais, frutas, legumes e fontes de amido moderadas, e evitar o consumo excessivo de carboidratos simples."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Carboidrato ?",
-                "description": "Os principais alimentos ricos em carboidratos incluem grãos integrais, como arroz integral, quinoa, aveia e pães integrais. Leguminosas, como feijões, lentilhas e grão-de-bico, também são fontes saudáveis de carboidratos, além de fornecerem proteínas e fibras. Frutas, como bananas, maçãs e laranjas, são opções nutritivas de carboidratos, assim como vegetais ricos em amido, como batatas e milho."
-            }
-        ],
-        "conclusion":"Os carboidratos são nutrientes importantes para o corpo humano, fornecendo energia essencial para as atividades diárias. No entanto, é necessário fazer escolhas alimentares conscientes, optando por fontes saudáveis de carboidratos e evitando o consumo excessivo de carboidratos refinados e açúcares adicionados. Uma dieta equilibrada, que inclua uma variedade de alimentos ricos em carboidratos, proteínas, gorduras saudáveis e outros nutrientes essenciais, contribui para uma alimentação saudável e para a manutenção da saúde. É recomendado buscar orientação de um profissional de saúde ou nutricionista para personalizar a dieta de acordo com as necessidades individuais."
-    },
-    {
-        "url": "cobalamina",
-        "title": "Qual a função do Cobalamina no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A cobalamina, também conhecida como vitamina B12, é um nutriente essencial para o corpo humano, desempenhando um papel importante em várias funções vitais.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do Cobalamina no nosso corpo?",
-                "description": "A cobalamina desempenha um papel crucial na formação de células vermelhas do sangue, no metabolismo energético, na saúde do sistema nervoso e na síntese do DNA. Ela auxilia na prevenção de anemia megaloblástica e na manutenção de um sistema nervoso saudável. No entanto, o excesso de consumo de cobalamina não foi associado a riscos significativos à saúde, pois o corpo é capaz de regular a absorção e a excreção desse nutriente."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Cobalamina ?",
-                "description": "A cobalamina é encontrada principalmente em alimentos de origem animal, como carne, peixe, frango, ovos e laticínios. No entanto, para pessoas que seguem uma dieta vegetariana ou vegana, é importante obter cobalamina através de fontes alternativas, como alimentos fortificados com vitamina B12 (como cereais matinais e leite vegetal fortificado) ou suplementos de cobalamina recomendados por um profissional de saúde."
-            }
-        ],
-        "conclusion":"A cobalamina desempenha um papel essencial no corpo humano, especialmente na formação de células sanguíneas e na saúde do sistema nervoso. Embora seja encontrada principalmente em alimentos de origem animal, existem alternativas para pessoas que seguem uma dieta vegetariana ou vegana. É fundamental garantir uma ingestão adequada de cobalamina por meio de uma alimentação equilibrada ou de suplementação, se necessário. Consultar um profissional de saúde ou nutricionista pode ajudar a determinar as necessidades individuais de cobalamina e desenvolver um plano alimentar adequado para manter uma saúde ótima."
-    },
-    {
-        "url": "cobre",
-        "title": "Qual a função do Cobre no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O cobre é um mineral essencial para o corpo humano, desempenhando um papel crucial em várias funções fisiológicas",
-        "topics": [
-            {
-                "subtitle":"Qual a função do Cobre no nosso corpo?",
-                "description": "O cobre desempenha um papel fundamental na formação de tecidos conjuntivos, metabolismo energético, funcionamento do sistema imunológico e na produção de glóbulos vermelhos. Além disso, atua como um antioxidante, ajudando a neutralizar os radicais livres e proteger as células contra danos. No entanto, o excesso de consumo de cobre pode levar a problemas de saúde, como distúrbios gastrointestinais e danos no fígado. É importante manter um equilíbrio adequado de cobre através de uma dieta balanceada e evitar a suplementação sem orientação profissional."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Cobre?",
-                "description": "Alimentos de origem animal, como mariscos (ostras, caranguejos), fígado de boi, carne vermelha e frango, são boas fontes de cobre. Para opções vegetarianas ou veganas, leguminosas (lentilhas, grão-de-bico), nozes, sementes de girassol e gergelim, cacau em pó, aveia e cereais integrais também fornecem quantidades significativas de cobre. É importante ressaltar que a absorção de cobre pode ser influenciada por outros nutrientes, como zinco e ferro, portanto, uma dieta equilibrada é fundamental."
-            }
-        ],
-        "conclusion":"O cobre desempenha um papel essencial no corpo humano, contribuindo para várias funções vitais. É necessário obter cobre por meio de uma alimentação adequada, incluindo alimentos ricos nesse mineral. Tanto para veganos quanto para não veganos, existem opções disponíveis, como mariscos, fígado de boi, leguminosas, nozes e sementes. No entanto, é importante evitar o consumo excessivo de cobre e garantir um equilíbrio nutricional adequado. Consultar um nutricionista pode ajudar a desenvolver uma dieta personalizada que atenda às necessidades individuais de cobre e promova uma saúde ótima."
-    },
-    {
-        "url": "colesterol",
-        "title": "Qual a função do Colesterol no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O colesterol é um nutriente essencial para o corpo humano, mas é importante entender a diferença entre o colesterol HDL e LDL para compreender seus efeitos na saúde.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do Colesterol no nosso corpo?",
-                "description": "O colesterol HDL, conhecido como \"bom colesterol\", ajuda a remover o colesterol LDL, ou \"mau colesterol\", das artérias, reduzindo o risco de doenças cardíacas. O LDL, por sua vez, pode se acumular nas artérias e aumentar o risco de problemas cardiovasculares. Ter níveis adequados de colesterol total, com uma proporção saudável entre HDL e LDL, é fundamental para a saúde. O consumo excessivo de alimentos ricos em gorduras saturadas e trans, bem como um estilo de vida sedentário, pode elevar os níveis de LDL e aumentar o risco de doenças cardiovasculares."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Colesterol?",
-                "description": "Alimentos de origem animal, como ovos, carne vermelha, aves, frutos do mar e laticínios, são fontes ricas de colesterol. Para opções veganas, os alimentos vegetais não contêm colesterol em sua forma natural. No entanto, é importante lembrar que a dieta vegana também deve ser equilibrada em termos de outros nutrientes essenciais, como ácidos graxos ômega-3 e proteínas."
-            }
-        ],
-        "conclusion":"O colesterol é um nutriente essencial para o corpo humano, desempenhando funções importantes. No entanto, é fundamental manter um equilíbrio saudável de consumo, evitando o excesso que pode aumentar o risco de doenças cardiovasculares. Para aqueles que desejam limitar a ingestão de colesterol, é possível optar por alimentos de origem vegetal e manter uma dieta equilibrada. Consultar um profissional de saúde ou nutricionista pode ser útil para desenvolver uma abordagem alimentar adequada às necessidades individuais e promover a saúde cardiovascular."
-    },
-    {
-        "url": "ferro",
-        "title": "Qual a função do Ferro no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O ferro é essencial para o corpo humano, desempenhando um papel fundamental em diversas funções vitais.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do Ferro no nosso corpo?",
-                "description": "O ferro é necessário para a produção de hemoglobina, responsável por transportar oxigênio para as células do corpo. Ele também desempenha um papel importante na produção de energia, no sistema imunológico e na função cerebral. A deficiência de ferro pode levar à anemia, fadiga, fraqueza e comprometimento do sistema imunológico. No entanto, é importante destacar que o excesso de ferro pode ser prejudicial, especialmente em pessoas predispostas a acúmulo de ferro, como aqueles com hemocromatose. O consumo excessivo de suplementos de ferro sem necessidade médica pode levar a danos nos órgãos."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Ferro?",
-                "description": "Alimentos de origem animal, como carne vermelha, aves, peixes e frutos do mar, são boas fontes de ferro altamente absorvível. Para veganos e vegetarianos, existem fontes vegetais ricas em ferro, como leguminosas (feijão, lentilha, grão-de-bico), tofu, espinafre, couve, quinoa, sementes de abóbora, além de alimentos enriquecidos com ferro, como cereais e pães integrais."
-            }
-        ],
-        "conclusion":"O ferro é um nutriente essencial para o corpo humano, desempenhando papéis vitais na produção de hemoglobina, energia, sistema imunológico e função cerebral. A deficiência de ferro pode levar a problemas de saúde, como anemia, enquanto o excesso de ferro pode ser prejudicial, especialmente em certas condições médicas. É importante obter ferro de fontes variadas, incluindo alimentos de origem animal e vegetal, para garantir uma ingestão adequada desse nutriente. Consultar um profissional de saúde ou nutricionista pode auxiliar na orientação individualizada sobre a ingestão de ferro e manutenção de uma dieta equilibrada."
-    },
-    {
-        "url": "fibras",
-        "title": "Qual a função das Fibras no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "As fibras são importantes para o corpo humano devido aos diversos benefícios que proporcionam à saúde e ao funcionamento adequado do sistema digestivo.",
-        "topics": [
-            {
-                "subtitle":"Qual a função das Fibras no nosso corpo?",
-                "description": "As fibras desempenham um papel fundamental na regulação do trânsito intestinal, prevenção da constipação e manutenção da saúde gastrointestinal. Além disso, elas ajudam a controlar os níveis de açúcar no sangue, reduzem o colesterol ruim (LDL) e contribuem para a sensação de saciedade, auxiliando no controle de peso. No entanto, o consumo excessivo de fibras pode levar a desconforto gastrointestinal, como inchaço, gases e diarreia. É importante consumir as fibras de forma equilibrada, acompanhando a ingestão de água adequada, para evitar problemas digestivos."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Fibras?",
-                "description": "Alguns dos principais alimentos ricos em fibras incluem frutas frescas, como maçãs, peras e bananas, legumes, como brócolis, cenoura e abóbora, grãos integrais, como aveia, arroz integral e quinoa, sementes, como chia e linhaça, e leguminosas, como feijões, lentilhas e grão-de-bico. Para os veganos, existem diversas opções de alimentos ricos em fibras, como frutas, legumes, grãos integrais, sementes e leguminosas. É importante variar a dieta e incluir uma variedade de alimentos para obter uma ingestão adequada de fibras."
-            }
-        ],
-        "conclusion":"As fibras desempenham um papel fundamental na promoção da saúde e no funcionamento adequado do sistema digestivo. Seus benefícios vão desde a regulação do trânsito intestinal até o controle de peso e a manutenção dos níveis de açúcar e colesterol no sangue. Ao consumir alimentos ricos em fibras, é importante fazê-lo de forma equilibrada, evitando o excesso que pode causar desconforto gastrointestinal. Veganos têm à disposição uma ampla variedade de alimentos ricos em fibras para incluir em sua dieta. Uma alimentação balanceada e diversificada, aliada à ingestão adequada de água, é fundamental para desfrutar dos benefícios das fibras e manter a saúde em dia."
-    },
-    {
-        "url": "vitamina-b9",
-        "title": "Qual a função da Vitamina B9 ou Folato no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O folato, também conhecido como vitamina B9, é um nutriente crucial para o bom funcionamento do corpo humano.",
-        "topics": [
-            {
-                "subtitle":"Qual a função da Vitamina B9 ou Folato no nosso corpo?",
-                "description": "A Vitamina B9 ou Folato desempenha um papel essencial na síntese e reparação do DNA, no crescimento celular e na produção de glóbulos vermelhos. Além disso, é fundamental para a saúde do sistema nervoso e para a formação adequada do cérebro e da medula espinhal em bebês durante a gravidez. No entanto, o excesso de consumo de folato não apresenta perigos significativos, uma vez que é uma vitamina solúvel em água e o organismo é capaz de eliminar o excesso através da urina."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Vitamina B9 ou Folato?",
-                "description": "Os alimentos ricos em A Vitamina B9 incluem vegetais folhosos verde-escuros, como espinafre e brócolis, leguminosas, como feijões e lentilhas, abacate, laranjas, manga e sementes de girassol. Para os veganos, existem diversas opções de alimentos vegetais que são excelentes fontes de folato, como espinafre, aspargos, alface romana, couve-de-bruxelas, feijões, lentilhas, grãos integrais e levedura nutricional. É importante incluir uma variedade de alimentos ricos em folato na dieta para garantir uma ingestão adequada do nutriente."
-            }
-        ],
-        "conclusion":"O folato, ou vitamina B9, desempenha um papel vital no corpo humano, sendo essencial para a síntese do DNA, crescimento celular e produção de glóbulos vermelhos. Durante a gravidez, o folato é especialmente importante para o desenvolvimento adequado do cérebro e da medula espinhal do feto. Não há perigos significativos associados ao consumo excessivo de folato, uma vez que é uma vitamina solúvel em água e o excesso é eliminado pelo organismo. Vegetais folhosos verde-escuros, leguminosas, abacate e frutas cítricas são exemplos de alimentos ricos em folato. Garantir uma dieta equilibrada com alimentos ricos em folato é essencial para manter a saúde e o bem-estar geral."
-    },
-    {
-        "url": "fosforo",
-        "title": "Qual a função do Fósforo no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O fósforo é um nutriente essencial para o funcionamento adequado do corpo humano, desempenhando diversas funções vitais.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do Fósforo no nosso corpo?",
-                "description": "O fósforo é fundamental na formação e manutenção de ossos e dentes saudáveis, além de estar envolvido no metabolismo energético, na função renal, na produção de proteínas e no equilíbrio ácido-base do organismo. No entanto, o consumo excessivo de fósforo, especialmente em forma de aditivos alimentares, pode interferir na absorção do cálcio e levar a problemas de saúde, como osteoporose e doenças renais. É importante manter um equilíbrio adequado entre a ingestão de fósforo e cálcio."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Fósforo?",
-                "description": "Os alimentos ricos em fósforo incluem carne, peixe, aves, laticínios, ovos, nozes e sementes. Para os veganos, boas fontes de fósforo são leguminosas como feijões, lentilhas e grão-de-bico, sementes de abóbora, amêndoas, tofu, quinoa e cereais integrais. É importante destacar que uma dieta balanceada e variada, que inclua uma variedade de alimentos, ajudará a garantir uma ingestão adequada de fósforo."
-            }
-        ],
-        "conclusion":"O fósforo desempenha um papel crucial no organismo, contribuindo para a saúde óssea, o metabolismo energético e diversas funções fisiológicas. É importante manter um equilíbrio adequado entre o consumo de fósforo e cálcio para evitar possíveis interferências na absorção de minerais. Alimentos como carne, peixe, laticínios, nozes e sementes são ricos em fósforo, enquanto leguminosas, sementes, tofu, quinoa e cereais integrais são opções para veganos. Uma alimentação balanceada que inclua fontes variadas de fósforo é essencial para garantir um suprimento adequado desse nutriente essencial."
-    },
-    {
-        "url": "gordura_monossaturada",
-        "title": "Qual a função da Gordura Monossaturada no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A gordura monoinsaturada é um nutriente importante para o corpo devido aos seus benefícios à saúde e seu papel na nutrição equilibrada.",
-        "topics": [
-            {
-                "subtitle":"Qual a função da Gordura Monossaturada no nosso corpo?",
-                "description": "A gordura monoinsaturada é conhecida por ser benéfica para a saúde cardiovascular, pois ajuda a reduzir o colesterol LDL (considerado \"ruim\") e aumentar o colesterol HDL (considerado \"bom\"). Isso contribui para a redução do risco de doenças cardíacas. Além disso, esse tipo de gordura auxilia na absorção de nutrientes lipossolúveis, como as vitaminas A, D, E e K. No entanto, o consumo excessivo de gordura monoinsaturada pode levar ao ganho de peso e ao aumento de calorias na dieta, o que pode ser prejudicial. É essencial equilibrar a ingestão de gordura monoinsaturada com outros nutrientes e manter uma dieta equilibrada."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Gordura Monossaturada?",
-                "description": "Os alimentos ricos em gordura monoinsaturada incluem azeite de oliva, óleo de canola, abacate, amêndoas, castanhas, nozes, sementes de gergelim e óleo de amendoim. Essas fontes de gordura saudável podem ser incorporadas em diversos pratos e preparações culinárias. Para os veganos, opções como o azeite de oliva e o óleo de canola são excelentes fontes de gordura monoinsaturada. Além disso, o abacate também é uma alternativa versátil e nutritiva."
-            }
-        ],
-        "conclusion":"A gordura monoinsaturada desempenha um papel importante na promoção da saúde cardiovascular e na absorção de nutrientes essenciais. Ela pode ser encontrada em alimentos como azeite de oliva, óleo de canola, abacate e oleaginosas. Ao incorporar esses alimentos na dieta, é possível desfrutar dos benefícios da gordura monoinsaturada. No entanto, é importante ter moderação e equilíbrio no consumo, evitando o excesso calórico. Uma dieta balanceada, que inclua diferentes tipos de gorduras, será fundamental para uma alimentação saudável e nutritiva."
-    },
-    {
-        "url": "gordura_poliinsaturada",
-        "title": "Qual a função da Gordura Poli-insaturada no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A gordura poli-insaturada é importante para o corpo humano, pois é uma fonte essencial de ácidos graxos benéficos.",
-        "topics": [
-            {
-                "subtitle":"Qual a função da Gordura Poli-insaturada no nosso corpo?",
-                "description": "A gordura poli-insaturada é conhecida por ser rica em ácidos graxos ômega-3 e ômega-6, que são fundamentais para a saúde cardiovascular e cerebral. Esses ácidos graxos ajudam a reduzir o colesterol LDL (considerado \"ruim\"), melhorar a saúde das artérias, promover a função cerebral e apoiar o sistema imunológico. No entanto, o consumo excessivo de gordura poli-insaturada pode levar a um desequilíbrio na proporção de ômega-3 e ômega-6 no organismo, o que pode causar inflamação e outros problemas de saúde. Portanto, é importante manter um equilíbrio adequado entre o consumo de ômega-3 e ômega-6 e evitar o consumo excessivo de gordura poli-insaturada."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Gordura Poli-insaturada?",
-                "description": "Os principais alimentos ricos em gordura poli-insaturada incluem peixes gordos, como salmão, sardinha e cavala, além de sementes de linhaça, chia e nozes. Para os veganos, boas fontes de gordura poli-insaturada incluem sementes de linhaça, chia, nozes e óleo de linhaça. É importante incorporar esses alimentos na dieta para garantir uma ingestão adequada de gordura poli-insaturada e seus benefícios à saúde."
-            }
-        ],
-        "conclusion":"A gordura poli-insaturada é uma importante fonte de ácidos graxos ômega-3 e ômega-6, essenciais para a saúde cardiovascular e cerebral. Consumir esses ácidos graxos em quantidades adequadas pode trazer benefícios significativos à saúde. No entanto, é fundamental evitar o consumo excessivo de gordura poli-insaturada para evitar desequilíbrios entre ômega-3 e ômega-6, que podem causar inflamação e outros problemas de saúde. Incluir peixes gordos, sementes de linhaça, chia e nozes na dieta, ou suas alternativas para veganos, ajudará a garantir uma ingestão adequada de gordura poli-insaturada e uma alimentação equilibrada e saudável."
-    },
-    {
-        "url": "gordura_saturada",
-        "title": "Qual a função da Gordura saturada no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A gordura poli-insaturada é importante para o corpo humano, pois é uma fonte essencial de ácidos graxos benéficos.",
-        "topics": [
-            {
-                "subtitle":"Qual a função da Gordura saturada no nosso corpo?",
-                "description": "A gordura saturada desempenha um papel crucial na formação de membranas celulares, na produção de hormônios e no suporte ao sistema imunológico. Além disso, é uma fonte concentrada de energia para o corpo. No entanto, o consumo excessivo de gordura saturada tem sido associado a um aumento do colesterol LDL (considerado \"ruim\"), o que pode aumentar o risco de doenças cardiovasculares. Por isso, é importante limitar a ingestão de gordura saturada e dar preferência a opções mais saudáveis de gorduras."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Gordura saturada?",
-                "description": "Alimentos de origem animal são as principais fontes de gordura saturada, como carnes gordas, manteiga, queijos e laticínios integrais. Para os veganos, fontes de gordura saturada incluem óleo de coco e óleo de palma, além de certos produtos à base de óleo de coco. No entanto, é importante lembrar que mesmo na dieta vegana, é possível consumir gordura saturada em excesso se houver um consumo elevado de alimentos processados ricos em óleos de coco e palma."
-            }
-        ],
-        "conclusion":"A gordura saturada é importante para o funcionamento do corpo, mas seu consumo deve ser moderado para evitar riscos à saúde, especialmente em relação ao colesterol LDL elevado e o aumento do risco de doenças cardiovasculares. Optar por fontes mais saudáveis de gordura, como gorduras insaturadas encontradas em óleos vegetais, abacate, nozes e sementes, é uma estratégia importante para uma alimentação equilibrada e benéfica para a saúde. Equilibrar a ingestão de gordura saturada com outras opções de gorduras saudáveis é essencial para manter uma dieta nutritiva e proteger a saúde cardiovascular."
-    },
-    {
-        "url": "gordura_trans",
-        "title": "Qual a função da Gordura trans no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A gordura trans é um tipo de gordura que pode ser prejudicial à saúde quando consumida em excesso.",
-        "topics": [
-            {
-                "subtitle":"Qual a função da Gordura trans no nosso corpo?",
-                "description": "A gordura trans é produzida por meio de um processo chamado hidrogenação, que transforma óleos vegetais líquidos em gorduras sólidas para melhorar a textura dos alimentos processados. Essa gordura pode prolongar a vida útil dos produtos, mas não oferece benefícios à saúde. Pelo contrário, o consumo excessivo de gordura trans tem sido associado a um aumento do colesterol LDL (considerado \"ruim\") e a um risco elevado de doenças cardiovasculares. Além disso, estudos mostram que a gordura trans também pode reduzir o colesterol HDL (considerado \"bom\") e aumentar a inflamação no corpo. Portanto, é importante evitar ou limitar ao máximo o consumo de gordura trans."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em Gordura trans?",
-                "description": "Os principais alimentos ricos em gordura trans são aqueles que passam por processos de hidrogenação, como margarina, gordura vegetal hidrogenada, alimentos fritos e produtos industrializados, como bolachas e salgadinhos. Algumas alternativas saudáveis incluem o uso de óleos vegetais não hidrogenados para cozinhar, como óleo de oliva, óleo de canola e óleo de girassol, e optar por produtos frescos e minimamente processados."
-            }
-        ],
-        "conclusion":"A gordura trans não oferece benefícios à saúde e pode ser prejudicial quando consumida em excesso. O aumento do colesterol LDL e o risco elevado de doenças cardiovasculares são preocupações associadas ao consumo de gordura trans. Por isso, é importante evitar alimentos ricos em gordura trans, como produtos processados e frituras. Optar por uma dieta equilibrada e baseada em alimentos frescos e naturais é fundamental para uma alimentação saudável e benéfica para o corpo. Leia os rótulos dos alimentos e faça escolhas conscientes para reduzir o consumo de gordura trans e proteger a saúde cardiovascular."
-    },
-    {
-        "url": "magnesio",
-        "title": "Qual a função do magnésio no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O magnésio é um nutriente essencial para o corpo humano, desempenhando diversos papéis importantes para a saúde.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do magnésio no nosso corpo?",
-                "description": "O magnésio é fundamental para o funcionamento adequado do sistema nervoso, dos músculos e do coração. Ele desempenha um papel crucial em mais de 300 reações enzimáticas no organismo, incluindo a síntese de proteínas, a produção de energia e a regulação do cálcio e potássio. Além disso, o magnésio contribui para a saúde óssea e pode ajudar a reduzir a pressão arterial. No entanto, o consumo excessivo de suplementos de magnésio pode levar a efeitos colaterais, como diarreia e náusea. Por isso, é importante obter magnésio através de uma dieta equilibrada e variada."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em magnésio?",
-                "description": "Os principais alimentos ricos em magnésio incluem folhas verdes escuras (espinafre, couve, acelga), nozes, sementes (como sementes de abóbora e de girassol), leguminosas (feijões, lentilhas, grão-de-bico) e grãos integrais. Para os veganos, esses alimentos são ótimas fontes de magnésio. Além disso, algumas águas minerais também podem ser boas fontes de magnésio, mas é importante verificar o rótulo para garantir a quantidade presente."
-            }
-        ],
-        "conclusion":"O magnésio é um nutriente essencial para diversas funções do corpo, incluindo a saúde muscular, nervosa e cardiovascular. Obter magnésio através de uma dieta equilibrada, que inclua alimentos como folhas verdes, nozes e leguminosas, é uma ótima maneira de garantir a ingestão adequada desse mineral. Evite o consumo excessivo de suplementos e faça escolhas conscientes para manter níveis saudáveis de magnésio e promover uma boa saúde geral."
-    },
-    {
-        "url": "manganes",
-        "title": "Qual a função do manganês no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O manganês é um nutriente importante para o corpo, desempenhando diversas funções vitais para a saúde.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do manganês no nosso corpo?",
-                "description": "O manganês é essencial para a formação de ossos saudáveis, metabolismo de carboidratos, proteínas e gorduras, além de atuar como cofator em várias enzimas antioxidantes. Ele desempenha um papel fundamental na proteção das células contra danos causados por radicais livres. No entanto, o consumo excessivo de manganês pode levar a problemas de saúde, como toxicidade. Isso geralmente ocorre em ambientes industriais ou com o uso indevido de suplementos. É importante obter manganês por meio de uma dieta equilibrada, pois o excesso pode causar danos ao sistema nervoso."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em manganês?",
-                "description": "Os principais alimentos ricos em manganês incluem castanhas, nozes, sementes (como sementes de abóbora e sementes de girassol), leguminosas (feijões, lentilhas, ervilhas), cereais integrais (como arroz integral, aveia) e vegetais folhosos verde-escuros (espinafre, couve, rúcula). Para os veganos, esses alimentos são excelentes fontes de manganês. É importante incluir uma variedade de alimentos em sua dieta para garantir uma ingestão adequada de manganês."
-            }
-        ],
-        "conclusion":"O manganês é um mineral essencial para diversas funções do corpo, como metabolismo, formação de ossos e proteção contra danos oxidativos. No entanto, é crucial evitar o consumo excessivo de manganês, pois pode levar à toxicidade e causar problemas de saúde. Opte por uma dieta equilibrada e rica em alimentos naturais, como castanhas, nozes, sementes, leguminosas e vegetais folhosos verde-escuros, para garantir uma ingestão adequada de manganês e promover uma boa saúde geral."
-    },
-    {
-        "url": "vitamina-b3",
-        "title": "Qual a função da vitamina B3 no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A Vitamina B3 (ou niacina) é um nutriente essencial para o corpo humano, desempenhando funções vitais para a saúde.",
-        "topics": [
-            {
-                "subtitle":"Qual a função da vitamina B3 no nosso corpo?",
-                "description": "A Vitamina B3, é importante para o metabolismo energético, auxiliando na conversão de carboidratos, proteínas e gorduras em energia. Além disso, desempenha um papel fundamental na síntese de hormônios e na manutenção da saúde da pele, do sistema nervoso e do sistema digestivo. A niacina também está associada à redução dos níveis de colesterol no sangue, contribuindo para a saúde cardiovascular. No entanto, o consumo excessivo de niacina através de suplementos pode levar a efeitos colaterais, como rubor cutâneo (vermelhidão na pele) e desconforto gastrointestinal. Por isso, é importante obter a Vitamina B3 através de uma dieta equilibrada."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em vitamina B3?",
-                "description": "Os principais alimentos ricos em Vitamina B3 incluem carnes magras (como frango e peixe), amendoim, grãos integrais (arroz integral, trigo integral), sementes (como sementes de girassol), leguminosas (feijões, lentilhas) e cogumelos. Para os veganos, é possível obter niacina a partir de fontes vegetais como amendoim, grãos integrais e cogumelos. Além disso, alguns cereais e alimentos fortificados também podem conter Vitamina B3. É importante incluir esses alimentos na dieta para garantir uma ingestão adequada de niacina."
-            }
-        ],
-        "conclusion":"A Vitamina B3 é essencial para diversas funções do corpo, incluindo o metabolismo energético e a saúde da pele, sistema nervoso e cardiovascular. Para obter os benefícios da niacina, é recomendado uma dieta equilibrada, com a inclusão de alimentos ricos nesse nutriente. Evitar o consumo excessivo de suplementos é importante para evitar efeitos colaterais indesejados. Promover uma alimentação saudável e variada é fundamental para garantir uma adequada ingestão de Vitamina B3 e, assim, manter a saúde em dia."
-    },
-    {
-        "url": "vitamina-b6",
-        "title": "Qual a função da vitamina B6 no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A Vitamina B6 é importante para o corpo, desempenhando funções essenciais para a saúde.",
-        "topics": [
-            {
-                "subtitle":"Qual a função da vitamina B6 no nosso corpo?",
-                "description": "A Vitamina B6, também conhecida como piridoxina, é essencial para o metabolismo de proteínas, carboidratos e gorduras. Ela desempenha um papel fundamental na formação de neurotransmissores, como a serotonina e a dopamina, que são importantes para o equilíbrio emocional e o funcionamento do sistema nervoso. Além disso, a Vitamina B6 é essencial para o sistema imunológico, auxiliando na produção de anticorpos que combatem infecções. No entanto, o consumo excessivo de suplementos de Vitamina B6 pode levar a problemas de saúde, como danos nos nervos periféricos. É importante obter essa vitamina através de uma dieta equilibrada."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em vitamina B6?",
-                "description": "Os principais alimentos ricos em Vitamina B6 incluem carnes magras (como frango e peixe), fígado, aves, bananas, batatas, grãos integrais (como aveia e trigo integral), nozes e sementes (como amendoim e girassol). Para os veganos, é possível obter piridoxina a partir de fontes vegetais como batatas, grãos integrais, nozes e sementes. É importante incluir esses alimentos na dieta para garantir uma ingestão adequada de Vitamina B6."
-            }
-        ],
-        "conclusion":"A Vitamina B6 desempenha um papel essencial no metabolismo e na função do sistema nervoso e imunológico. Uma dieta equilibrada, que inclua alimentos ricos em Vitamina B6, é fundamental para garantir os benefícios desse nutriente. Evitar o consumo excessivo de suplementos é importante para prevenir efeitos colaterais indesejados. Promover uma alimentação saudável e variada é a chave para garantir uma adequada ingestão de Vitamina B6 e, assim, manter a saúde e o bem-estar em dia."
-    },
-    {
-        "url": "potassio",
-        "title": "Qual a função do potássio no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A potássio é importante para o corpo, desempenhando funções essenciais para a saúde.",
-        "topics": [
-            {
-                "subtitle":"Qual a função do potássio no nosso corpo?",
-                "description": "O potássio é um eletrólito importante para a regulação do equilíbrio ácido-base e da pressão arterial. Ele desempenha um papel fundamental na transmissão dos impulsos nervosos e na contração muscular, incluindo o músculo cardíaco. Além disso, o potássio ajuda a manter o equilíbrio de fluidos no corpo, o que é essencial para o funcionamento adequado das células e dos órgãos. No entanto, o consumo excessivo de potássio através de suplementos pode levar a problemas de saúde, como hipercalemia, que é o aumento perigoso dos níveis de potássio no sangue. É importante obter potássio através de uma dieta equilibrada."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em potássio?",
-                "description": "Os principais alimentos ricos em potássio incluem bananas, laranjas, batatas, espinafre, abacates, feijões, lentilhas e amêndoas. É importante incluir esses alimentos na dieta para garantir uma ingestão adequada de potássio."
-            }
-        ],
-        "conclusion":"O potássio desempenha um papel essencial na regulação de diversas funções vitais do corpo, incluindo a pressão arterial, a função muscular e a transmissão nervosa. Uma dieta equilibrada, que inclua alimentos ricos em potássio, é fundamental para garantir os benefícios desse nutriente. Evitar o consumo excessivo de suplementos é importante para prevenir efeitos colaterais indesejados. Promover uma alimentação saudável e variada é a chave para garantir uma adequada ingestão de potássio e, assim, manter a saúde e o bom funcionamento do organismo."
-    },
-    {
-        "url": "proteina",
-        "title": "Qual a função da proteína no nosso corpo e quais os alimentos mais ricos?",
-        "intro":"A proteína desempenha um papel crucial no corpo humano, sendo um nutriente fundamental para o crescimento, desenvolvimento e manutenção da saúde. Sua importância se deve à sua participação em diversas funções fisiológicas essenciais.",
-        "topics":[
-            {
-                "subtitle":"Qual a função da proteína no nosso corpo?",
-                "description":"A proteína é responsável pela construção e reparação dos tecidos do corpo, incluindo músculos, pele, cabelos e unhas. Além disso, ela desempenha um papel crucial na produção de enzimas, hormônios e anticorpos, bem como no transporte de nutrientes e oxigênio. No entanto, o consumo excessivo de proteína pode sobrecarregar os rins e aumentar o risco de doenças renais em indivíduos predispostos. É importante manter um equilíbrio adequado na ingestão de proteínas e buscar orientação profissional para determinar as necessidades individuais."
-            },
-            {
-                "subtitle":"Quais os alimentos mais ricos em proteína?",
-                "description":"Existem diversas fontes alimentares que são ricas em proteína. Entre as opções de origem animal, destacam-se carnes (como frango, peixe, carne bovina e suína), ovos e laticínios (como leite, queijo e iogurte). Leguminosas como feijões, lentilhas e grão-de-bico são excelentes fontes de proteína para vegetarianos e veganos. Além disso, alimentos à base de soja, como tofu e tempeh, além de sementes, nozes e algumas variedades de grãos integrais, como quinoa e trigo sarraceno, também são boas opções."
-            }
-        ],
-        "conclusion":"A proteína é um nutriente essencial para o corpo humano, desempenhando um papel fundamental na construção e reparação dos tecidos, produção de enzimas e hormônios, além do transporte de nutrientes. É importante consumir proteínas de maneira equilibrada, evitando o excesso que pode sobrecarregar os rins. Uma dieta balanceada, que inclua fontes de proteína animal e vegetal, proporciona os benefícios necessários para o corpo. Consultar um profissional de saúde ou nutricionista é fundamental para determinar as necessidades individuais e garantir uma alimentação adequada e saudável."
-    },
-    {
-        "url": "retinol",
-        "title": "Qual a função do retinol no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O retinol, também conhecido como vitamina A, é essencial para diversos processos no corpo humano.",
-        "topics": [
-          {
-            "subtitle": "Qual a função do retinol no nosso corpo?",
-            "description": "O retinol desempenha um papel crucial na saúde da visão, crescimento celular, função imunológica e reprodução. No entanto, o consumo excessivo de retinol, principalmente em forma de suplementos, pode levar a efeitos colaterais graves. O excesso de vitamina A pode resultar em náuseas, tonturas, dores de cabeça, danos ao fígado e até mesmo malformações fetais em gestantes."
-          },
-          {
-            "subtitle": "Quais os alimentos mais ricos em retinol?",
-            "description": "Os alimentos ricos em retinol incluem fígado, ovos, laticínios, peixes gordurosos e carne. Para veganos, fontes de carotenoides como cenouras, abóbora, espinafre e batata-doce podem ser convertidas em vitamina A pelo corpo. No entanto, é importante notar que a conversão de carotenoides em retinol é limitada, tornando o consumo de fontes animais uma opção mais eficaz para atender às necessidades de retinol."
-          }
-        ],
-        "conclusion": "O retinol desempenha um papel vital em várias funções do corpo humano, mas o equilíbrio é essencial. Enquanto fontes animais são ricas em retinol, veganos podem obter carotenoides de alimentos vegetais para atender às necessidades dessa vitamina. A moderação é fundamental para evitar os riscos associados ao excesso de retinol e manter uma saúde ótima."
-      },
-      {
-        "url": "vitamina-b2",
-        "title": "Qual a função da Vitamina B2 no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A Vitamina B2, também conhecida como riboflavina, desempenha papéis essenciais no corpo humano.",
-        "topics": [
-            {
-                "subtitle": "Qual a função da Vitamina B2 no nosso corpo?",
-                "description": "A Vitamina B2 é vital para o metabolismo energético, auxiliando na transformação de carboidratos, gorduras e proteínas em energia. Ela também desempenha um papel crucial na manutenção da saúde da pele, dos olhos e do sistema nervoso. A riboflavina é um componente essencial de coenzimas envolvidas em diversos processos celulares, incluindo a produção de glóbulos vermelhos e a proteção contra danos oxidativos. No entanto, o excesso de consumo não é comum e não há relatos significativos de efeitos adversos decorrentes do consumo excessivo de Vitamina B2."
-            },
-            {
-                "subtitle": "Quais os alimentos mais ricos em Vitamina B2?",
-                "description": "A Vitamina B2 é encontrada em alimentos como carnes magras, peixes, leite, ovos e laticínios. Para os veganos, é possível obter riboflavina a partir de fontes vegetais como espinafre, brócolis, cogumelos e grãos integrais. A levedura de cerveja também é uma excelente fonte de Vitamina B2. Incluir esses alimentos na dieta é fundamental para garantir uma ingestão adequada desse nutriente."
-            }
-        ],
-        "conclusion": "A Vitamina B2 desempenha funções vitais no corpo, sendo essencial para o metabolismo energético e a saúde da pele, olhos e sistema nervoso. Manter uma dieta equilibrada com alimentos ricos em riboflavina é importante para aproveitar seus benefícios."
-    },
-    {
-        "url": "selenio",
-        "title": "Qual a função do selênio no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O selênio é essencial para o corpo humano, desempenhando funções vitais para a saúde.",
-        "topics": [
-            {
-                "subtitle": "Qual a função do selênio no nosso corpo?",
-                "description": "O selênio é um mineral que atua como antioxidante, protegendo as células contra danos causados pelos radicais livres. Ele desempenha um papel importante na função da tireoide, no sistema imunológico e na reprodução. Além disso, o selênio está envolvido na regulação do metabolismo e na prevenção de doenças crônicas, como câncer e problemas cardiovasculares. No entanto, o excesso de consumo de selênio pode causar toxicidade, resultando em sintomas como fadiga, unhas quebradiças e problemas gastrointestinais."
-            },
-            {
-                "subtitle": "Quais os alimentos mais ricos em selênio?",
-                "description": "Alimentos ricos em selênio incluem frutos do mar (como camarão e atum), carnes (como frango e carne bovina), ovos, castanhas (como castanha-do-pará), sementes (como semente de girassol) e cereais integrais. Para os veganos, fontes de selênio incluem castanha-do-pará, semente de girassol, cogumelos e grãos integrais. Uma dieta equilibrada que inclua esses alimentos pode ajudar a garantir uma ingestão adequada de selênio."
-            }
-        ],
-        "conclusion": "O selênio desempenha um papel crucial como antioxidante e na manutenção da saúde da tireoide, sistema imunológico e reprodução. No entanto, é importante evitar o excesso de consumo para prevenir sintomas de toxicidade. Incluir alimentos ricos em selênio em uma dieta balanceada contribui para o bem-estar geral."
-    },
-    {
-        "url": "sodio",
-        "title": "Qual a função do sódio no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O sódio é um mineral essencial que desempenha um papel vital em diversas funções do corpo humano.",
-        "topics": [
-            {
-                "subtitle": "Qual a função do sódio no nosso corpo?",
-                "description": "O sódio é necessário para manter o equilíbrio dos fluidos corporais, regulação da pressão sanguínea e funcionamento adequado dos nervos e músculos. Também é crucial para a transmissão de impulsos nervosos e a contração muscular. No entanto, o excesso de consumo de sódio está associado a riscos como hipertensão (pressão alta), doenças cardíacas e retenção de líquidos. Sintomas de excesso incluem inchaço, aumento da pressão arterial e aumento do risco de derrame."
-            },
-            {
-                "subtitle": "Quais os alimentos mais ricos em sódio?",
-                "description": "Alimentos processados, fast-foods e produtos enlatados geralmente são ricos em sódio. Em contrapartida, alimentos naturais como frutas, vegetais frescos, carnes magras e laticínios possuem teor de sódio mais baixo. Veganos podem obter sódio de maneira equilibrada através do consumo de alimentos não processados como legumes, grãos inteiros, frutas e sementes."
-            }
-        ],
-        "conclusion": "Em resumo, o sódio é essencial para o corpo, mas o consumo excessivo deve ser evitado. Optar por alimentos naturais e minimamente processados é uma abordagem saudável para manter os níveis adequados de sódio e evitar riscos à saúde."
-    },
-    {
-        "url": "vitamina-b1",
-        "title": "Qual a função da Vitamina B1 no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A Vitamina B1, também conhecida como tiamina, desempenha papéis vitais no corpo humano.",
-        "topics": [
-            {
-                "subtitle": "Qual a função da Vitamina B1 no nosso corpo?",
-                "description": "A Vitamina B1 é essencial para o metabolismo de carboidratos, fornecendo energia às células. Além disso, ela é fundamental para o funcionamento do sistema nervoso e a manutenção da saúde da pele e do cabelo. A tiamina também participa na síntese de neurotransmissores, como a serotonina. O excesso de consumo da vitamina não é comum, já que o corpo elimina o excesso pela urina. Porém, doses extremamente altas podem causar efeitos colaterais como palpitações e sudorese."
-            },
-            {
-                "subtitle": "Quais os alimentos mais ricos em Vitamina B1?",
-                "description": "Alimentos como carne de porco, fígado, peixes (como atum e salmão), ovos, leguminosas (feijão, lentilha, ervilha), cereais integrais (como arroz integral e aveia) e sementes (como girassol) são excelentes fontes de Vitamina B1. Para os veganos, grãos integrais, leguminosas e sementes são opções importantes para garantir a ingestão adequada de tiamina."
-            }
-        ],
-        "conclusion": "A Vitamina B1 é crucial para o metabolismo energético, a saúde do sistema nervoso e da pele. Uma dieta balanceada que inclua alimentos ricos em tiamina é essencial para aproveitar os benefícios dessa vitamina."
-    },
-    {
-        "url": "vitamina-a",
-        "title": "Qual a função da vitamina A no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A vitamina A desempenha papéis cruciais no corpo humano, como na saúde da visão, crescimento e sistema imunológico.",
-        "topics": [
-            {
-                "subtitle": "Qual a função da vitamina A no nosso corpo?",
-                "description": "A vitamina A é essencial para a saúde da visão, promovendo a adaptação à luz, a manutenção da saúde da córnea e o funcionamento da retina. Ela também desempenha um papel crucial no crescimento e desenvolvimento celular, incluindo a regulação da diferenciação celular. Além disso, a vitamina A é vital para o sistema imunológico, ajudando a manter a integridade das mucosas e a função dos leucócitos. No entanto, o excesso de consumo pode levar à hipervitaminose A, resultando em sintomas como náuseas, tonturas, pele seca e, em casos graves, danos hepáticos."
-            },
-            {
-                "subtitle": "Quais os alimentos mais ricos em vitamina A?",
-                "description": "Alimentos de origem animal, como fígado, óleo de fígado de bacalhau, ovos e laticínios, são fontes ricas de vitamina A. Para veganos, opções como cenouras, batatas-doces, abóbora, espinafre e vegetais de folhas verde-escuras são excelentes fontes de betacarotenos, que o corpo converte em vitamina A. A combinação de alimentos de origem animal e vegetal pode garantir uma ingestão equilibrada dessa vitamina essencial."
-            }
-        ],
-        "conclusion": "A vitamina A é crucial para múltiplos aspectos da saúde, incluindo visão, crescimento e imunidade. Equilíbrio na ingestão é fundamental para evitar os riscos do excesso. Incorporar uma variedade de alimentos ricos em vitamina A na dieta é uma estratégia saudável para garantir suas vantagens sem os efeitos colaterais."
-    },
-    {
-        "url": "vitamina-c",
-        "title": "Qual a função da Vitamina C no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A Vitamina C é essencial para o corpo humano, pois fortalece o sistema imunológico, auxilia na absorção de ferro, atua como antioxidante e contribui para a saúde da pele.",
-        "topics": [
-            {
-                "subtitle": "Qual a função da Vitamina C no nosso corpo?",
-                "description": "A Vitamina C, também conhecida como ácido ascórbico, é crucial para a formação de colágeno, que mantém a saúde da pele, dos ossos e dos vasos sanguíneos. Além disso, ela fortalece o sistema imunológico, auxilia na absorção de ferro não-heme (presente em alimentos de origem vegetal), possui propriedades antioxidantes que combatem os danos causados pelos radicais livres e contribui para a síntese de neurotransmissores."
-            },
-            {
-                "subtitle": "Excesso de consumo e sintomas de excesso de Vitamina C",
-                "description": "O excesso de consumo de Vitamina C é raro, uma vez que o corpo excreta o excesso pela urina. Porém, doses muito altas podem levar a distúrbios gastrointestinais, diarreia e cálculos renais. A ingestão diária recomendada para adultos é de cerca de 65 a 90 mg, e doses muito acima disso podem resultar em efeitos indesejados."
-            },
-            {
-                "subtitle": "Quais os alimentos mais ricos em Vitamina C?",
-                "description": "Frutas cítricas, como laranja, limão e acerola, são fontes conhecidas de Vitamina C. Além disso, morangos, kiwi, abacaxi, manga, pimentão vermelho, brócolis e couve-flor são boas opções. Para veganos, é possível encontrar essa vitamina em frutas e vegetais diversos, como brócolis, espinafre e batata."
-            }
-        ],
-        "conclusion": "A Vitamina C é um nutriente vital para diversos processos do corpo humano. Manter uma dieta equilibrada com alimentos ricos nessa vitamina é fundamental para promover a saúde e o bem-estar."
-    },
-    {
-        "url": "vitamina-d",
-        "title": "Qual a função da Vitamina D no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A Vitamina D é crucial para a saúde óssea e imunológica.",
-        "topics": [
-            {
-                "subtitle": "Qual a função da Vitamina D no nosso corpo?",
-                "description": "A Vitamina D desempenha um papel vital na absorção de cálcio e fósforo, essenciais para a saúde dos ossos e dentes. Além disso, contribui para o funcionamento adequado do sistema imunológico, auxiliando na proteção contra infecções e doenças autoimunes. Entretanto, o excesso de Vitamina D pode levar a níveis elevados de cálcio no sangue (hipercalcemia), causando danos aos rins, ossos e outros órgãos."
-            },
-            {
-                "subtitle": "Quais os alimentos mais ricos em Vitamina D?",
-                "description": "A principal fonte de Vitamina D é a exposição solar, que ajuda na síntese dessa vitamina pela pele. Além disso, alimentos como peixes gordurosos (salmão, sardinha), gema de ovo, cogumelos e alimentos fortificados, como leites e cereais, são boas fontes. Para veganos, fontes vegetais incluem cogumelos e produtos fortificados."
-            }
-        ],
-        "conclusion": "A Vitamina D é essencial para ossos fortes, sistema imunológico saudável e prevenção de várias doenças. A exposição solar adequada e uma dieta balanceada são fundamentais para garantir níveis adequados de Vitamina D no organismo."
-    },
-    {
-        "url": "vitamina-e",
-        "title": "Qual a função da vitamina E no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "A vitamina E desempenha um papel fundamental como antioxidante e na saúde da pele, sistema imunológico e cardiovascular.",
-        "topics": [
-            {
-                "subtitle": "Qual a função da vitamina E no nosso corpo?",
-                "description": "A vitamina E é um poderoso antioxidante que protege as células do corpo contra danos causados pelos radicais livres. Além disso, ela desempenha um papel importante na saúde da pele, no fortalecimento do sistema imunológico e na saúde cardiovascular, contribuindo para a dilatação dos vasos sanguíneos e prevenção de coágulos. No entanto, o excesso de consumo de vitamina E através de suplementos pode levar a efeitos colaterais, como distúrbios de coagulação e aumento de risco de hemorragia."
-            },
-            {
-                "subtitle": "Quais os alimentos mais ricos em vitamina E?",
-                "description": "Os principais alimentos ricos em vitamina E são as sementes de girassol, amêndoas, azeite de oliva, abacate, espinafre, brócolis e kiwi. Para veganos, além desses alimentos, pode-se incluir também fontes vegetais como nozes e vegetais de folhas verdes escuras. É importante incluir esses alimentos na dieta para garantir uma ingestão adequada de vitamina E."
-            }
-        ],
-        "conclusion": "A vitamina E é essencial para a proteção das células e para o funcionamento adequado do sistema imunológico e cardiovascular. Uma dieta equilibrada, rica em alimentos naturais e variados, é a maneira mais segura de garantir os benefícios desse nutriente. Evitar o consumo excessivo de suplementos é importante para prevenir efeitos colaterais indesejados."
-    },
-    {
-        "url": "zinco",
-        "title": "Qual a função do zinco no nosso corpo e quais os alimentos mais ricos?",
-        "intro": "O zinco é essencial para várias funções do corpo humano.",
-        "topics": [
-            {
-                "subtitle": "Qual a função do zinco no nosso corpo?",
-                "description": "O zinco desempenha um papel crucial em processos como o metabolismo, a função imunológica, a síntese de DNA e a cicatrização de feridas. Além disso, contribui para a saúde da pele, cabelos e unhas, e está envolvido na percepção do paladar e olfato. No entanto, o excesso de zinco pode causar problemas de absorção de outros minerais, como cobre e ferro. Sintomas de excesso incluem náuseas, vômitos e alterações gastrointestinais."
-            },
-            {
-                "subtitle": "Quais os alimentos mais ricos em zinco?",
-                "description": "Alimentos de origem animal são excelentes fontes de zinco, incluindo carne vermelha, frango, peixe e laticínios. Para veganos, leguminosas como feijão, lentilhas e grão-de-bico, além de sementes de abóbora, sementes de gergelim e nozes, são boas alternativas. A ingestão equilibrada desses alimentos pode ajudar a garantir uma adequada ingestão de zinco."
-            }
-        ],
-        "conclusion": "O zinco desempenha um papel essencial em várias funções do corpo e manter níveis adequados é fundamental para a saúde. Uma dieta balanceada que inclua fontes naturais de zinco é recomendada, lembrando sempre de não exceder as quantidades diárias recomendadas para evitar problemas de absorção de outros minerais."
+      "subtitle": "Quais os alimentos mais ricos no ácido linoleico?",
+      "description": "Os alimentos mais ricos em ácido linoleico incluem:",
+      "foods": {
+        "novegan": [],
+        "vegan": [
+          "Óleo de soja",
+          "Óleo de milho",
+          "Óleo de girassol",
+          "Nozes",
+          "Sementes",
+          "Amendoim",
+          "Castanha de caju"
+        ]
+      }
     }
+  ],
+  "conclusion": "O ácido linoleico é um nutriente essencial que desempenha um papel importante na saúde humana. É importante consumir uma dieta equilibrada que inclua fontes de ácido linoleico.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/linoleic-acid/faq-20058601",
+    "https://www.healthline.com/nutrition/linoleic-acid",
+    "https://ods.od.nih.gov/factsheets/LinoleicAcid-HealthProfessional/"
+  ]
+},
+{
+  "url": "acido-linolenico",
+  "title": "Ácido linolênico: Benefícios e alimentos ricos",
+  "intro": "O ácido linolênico é um ácido graxo essencial ômega-3 que desempenha um papel importante na saúde humana.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções do ácido linolênico no nosso corpo?",
+      "description": "O ácido linolênico é um ácido graxo essencial, o que significa que o corpo não pode produzi-lo e precisa ser obtido da dieta. Ele desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Regulação da inflamação: O ácido linolênico é um anti-inflamatório natural que pode ajudar a reduzir a inflamação no corpo, que está associada a uma série de doenças, incluindo doenças cardíacas, câncer e doenças autoimunes.",
+        "Proteção do coração: O ácido linolênico pode ajudar a proteger o coração, reduzindo o risco de doenças cardíacas, como ataque cardíaco e derrame.",
+        "Saudação cerebral: O ácido linolênico é importante para a saúde cerebral, ajudando a proteger o cérebro do declínio cognitivo e da doença de Alzheimer.",
+        "Saudação da pele: O ácido linolênico é importante para a saúde da pele, ajudando a manter a pele hidratada e saudável."
+      ],
+      "cons": [
+        "Diarreia: O ácido linolênico pode causar diarreia porque é um laxante natural. Ele pode ajudar a mover as fezes pelo sistema digestivo mais rapidamente, o que pode levar à diarreia.",
+        "Vômitos: O ácido linolênico pode causar vômitos porque pode irritar o estômago e os intestinos.",
+        "Crampes abdominais: O ácido linolênico pode causar cólicas abdominais porque pode irritar o estômago e os intestinos.",
+        "Fadiga: O ácido linolênico pode causar fadiga porque pode interferir na produção de energia pelo corpo.",
+        "Dor de cabeça: O ácido linolênico pode causar dor de cabeça porque pode dilatar os vasos sanguíneos no cérebro."
+      ],
+      "recommended_amout": "A ingestão diária recomendada de ácido linolênico pela OMS é de 10 a 12 gramas por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos no ácido linolênico?",
+      "description": "Os alimentos mais ricos em ácido linolênico incluem:",
+      "foods": {
+        "novegan": [],
+        "vegan": [
+          "Óleo de linhaça",
+          "Nozes pecã",
+          "Castanha de caju",
+          "Semente de linho",
+          "Semente de girassol"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O ácido linolênico é um nutriente essencial que desempenha um papel importante na saúde humana. É importante consumir uma dieta equilibrada que inclua fontes de ácido linolênico.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/linolenic-acid/art-20045559",
+    "https://www.healthline.com/nutrition/linolenic-acid-benefits",
+    "https://ods.od.nih.gov/factsheets/LinolenicAcid-HealthProfessional/"
+  ]
+},
+{
+  "url": "calcio",
+  "title": "Cálcio: Benefícios e alimentos ricos",
+  "intro": "O cálcio é um mineral essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais são as funções do cálcio no nosso corpo?",
+      "description": "O cálcio desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Construção e manutenção de ossos e dentes fortes: O cálcio é o principal componente dos ossos e dentes. É necessário para a formação de novos ossos e para a manutenção da força e densidade óssea. Sem cálcio suficiente, os ossos podem ficar fracos e propensos a fraturas.",
+        "Regulação da contração muscular: O cálcio é necessário para a contração muscular, incluindo os músculos cardíacos. Sem cálcio suficiente, os músculos podem se contrair fracamente ou não se contrair, o que pode levar a fadiga, cãibras e problemas cardíacos.",
+        "Transmissão de impulsos nervosos: O cálcio é necessário para a transmissão de impulsos nervosos. Sem cálcio suficiente, os nervos podem não funcionar corretamente, o que pode levar a problemas de coordenação, sensibilidade e memória.",
+        "Coagulação sanguínea: O cálcio é necessário para a coagulação sanguínea. Sem cálcio suficiente, os cortes podem sangrar por mais tempo do que o normal."
+      ],
+      "cons": [
+        "Formação de cálculos renais: O cálcio pode se acumular nos rins e formar cálculos. No entanto, isso é raro em pessoas que consomem uma dieta equilibrada.",
+        "Alergia ao leite: Algumas pessoas são alérgicas ao leite, o que pode dificultar a ingestão de cálcio.",
+        "Interações medicamentosas: Alguns medicamentos podem interferir na absorção de cálcio. É importante conversar com o médico ou farmacêutico antes de tomar qualquer medicamento."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos consumam 1.000 mg de cálcio por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em cálcio?",
+      "description": "Os alimentos mais ricos em cálcio incluem:",
+      "foods": {
+        "novegan": [
+          "Leite",
+          "Queijo",
+          "Iogurte",
+          "Sardinha",
+          "Salmão"
+        ],
+        "vegan": [
+          "Espinafre",
+          "Couve",
+          "Brócolis",
+          "Feijão",
+          "Lentilha",
+          "Grão de bico",
+          "Sementes de gergelim"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O cálcio é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua alimentos ricos em cálcio pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/calcium/art-20045414",
+    "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/calcium",
+    "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+  ]
+},
+{
+  "url": "carboidrato",
+  "title": "Carboidratos: Benefícios e excesso",
+  "intro": "Carboidratos são um macronutriente essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções dos carboidratos no nosso corpo?",
+      "description": "Os carboidratos desempenham uma variedade de funções no corpo humano, incluindo:",
+      "pros": [
+        "Fornecer energia: Os carboidratos são a principal fonte de energia do corpo. Eles são quebrados em glicose, que é usada pelas células para produzir energia. A glicose é essencial para o funcionamento do cérebro, do coração, dos músculos e de outros órgãos.",
+        "Manter a glicemia estável: Os carboidratos ajudam a manter a glicemia estável, o que é importante para a saúde geral. A glicemia é a medida da quantidade de açúcar no sangue. Uma glicemia estável ajuda a prevenir o desenvolvimento de doenças como diabetes e obesidade.",
+        "Fornecer nutrientes essenciais: Os carboidratos fornecem nutrientes essenciais, como vitaminas do complexo B e fibras. As vitaminas do complexo B são importantes para o metabolismo, o sistema nervoso e a saúde da pele. As fibras ajudam a regular o intestino e a prevenir a constipação."
+      ],
+      "cons": [
+        "Excesso de peso: O consumo excessivo de carboidratos pode levar ao ganho de peso. Os carboidratos são ricos em calorias, e quando consumidos em excesso, eles podem ser armazenados como gordura.",
+        "Diabetes: O consumo excessivo de carboidratos pode aumentar o risco de desenvolver diabetes tipo 2. O diabetes é uma doença crônica que afeta o metabolismo da glicose.",
+        "Doenças cardíacas: O consumo excessivo de carboidratos refinados pode aumentar o risco de desenvolver doenças cardíacas. Os carboidratos refinados são rapidamente absorvidos pelo corpo e podem levar ao aumento dos níveis de açúcar no sangue."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam de 45 a 65% de suas calorias diárias a partir de carboidratos."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em carboidratos?",
+      "description": "Os alimentos mais ricos em carboidratos incluem:",
+      "foods": {
+        "novegan": [
+          "Leite",
+          "Queijo",
+          "Iogurte"
+        ],
+        "vegan": [
+          "Arroz branco",
+          "Batata",
+          "Pão branco",
+          "Macarrão",
+          "Cereais matinais",
+          "Refrigerantes",
+          "Batata-doce",
+          "Frutas",
+          "Legumes"
+        ]
+      }
+    }
+  ],
+  "conclusion": "Os carboidratos são um macronutriente essencial para o funcionamento do nosso corpo. No entanto, é importante consumir carboidratos com moderação para evitar o ganho de peso e o desenvolvimento de doenças.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/carbohydrates/art-20045556",
+    "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/carbs/carbohydrates-what-you-need-to-know",
+    "https://www.who.int/news-room/fact-sheets/detail/carbohydrates-in-food"
+  ]
+},
+{
+  "url": "vitamina-b12",
+  "title": "Vitamina B12: Benefícios e alimentos ricos",
+  "intro": "A vitamina B12, também conhecida como cobalamina, é uma vitamina essencial para o bom funcionamento do corpo humano.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções da vitamina B12 no nosso corpo?",
+      "description": "A vitamina B12 desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Formação de células sanguíneas: A vitamina B12 é necessária para a produção de glóbulos vermelhos saudáveis. Os glóbulos vermelhos carregam oxigênio para todas as células do corpo.",
+        "Função do sistema nervoso: A vitamina B12 é necessária para a função do sistema nervoso, incluindo a produção de mielina, uma substância que reveste os nervos. A mielina ajuda os nervos a transmitir sinais rapidamente e eficientemente.",
+        "Síntese de DNA: A vitamina B12 é necessária para a síntese de DNA, o material genético do corpo. O DNA é responsável por armazenar todas as informações genéticas de uma pessoa."
+      ],
+      "cons": [
+        "Excesso de vitamina B12: O excesso de vitamina B12 é raro, mas pode causar sintomas como náusea, vômito, diarreia e vermelhidão na pele."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda uma quantidade diária de 2,4 microgramas de vitamina B12 para adultos."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em vitamina B12?",
+      "description": "Os alimentos mais ricos em vitamina B12 são:",
+      "foods": {
+        "novegan": [
+          "Salmão",
+          "Atum",
+          "Carne vermelha",
+          "Fígado",
+          "Ovos"
+        ],
+        "vegan": [
+          "Cereais matinais fortificados",
+          "Soja fortificada",
+          "leite de soja fortificado"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A vitamina B12 é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua alimentos ricos em vitamina B12 pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/vitamin-b12/art-20049283",
+    "https://www.healthline.com/nutrition/vitamin-b12#TOC_TITLE_HDR_10",
+    "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+  ]
+}
+,
+{
+  "url": "cobre",
+  "title": "Cobre: Benefícios e alimentos ricos",
+  "intro": "O cobre é um mineral essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções do cobre no nosso corpo?",
+      "description": "O cobre desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Síntese de melanina: O cobre é necessário para a síntese de melanina, um pigmento que dá cor à pele, cabelos e olhos.",
+        "Formação de colágeno: O cobre é necessário para a formação de colágeno, uma proteína que dá estrutura à pele, ossos, cartilagem e outros tecidos.",
+        "Transporte de ferro: O cobre é necessário para o transporte de ferro no sangue.",
+        "Função imunológica: O cobre é necessário para a função imunológica.",
+        "Produção de energia: O cobre é necessário para a produção de energia."
+      ],
+      "cons": [
+        "Excesso de cobre: O excesso de cobre pode causar danos ao fígado, rins e sistema nervoso.",
+        "Sintomas de excesso de cobre: Os sintomas de excesso de cobre incluem náusea, vômito, diarreia, dor abdominal, dor de cabeça, tontura, fadiga e convulsões."
+      ],
+      "recommended_amout": "A recomendação de ingestão diária de cobre para adultos é de 900 microgramas (mcg). Essa recomendação é fornecida pelo Instituto Nacional de Saúde dos Estados Unidos (NIH)."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos no cobre?",
+      "description": "Os alimentos mais ricos em cobre incluem:",
+      "foods": {
+        "novegan": [
+          "Camarão",
+          "Ostra",
+          "Mexilhão",
+          "Fígado de bacalhau",
+          "Carne de vaca",
+          "Frango",
+          "Aves de caça"
+        ],
+        "vegan": [
+          "Feijão",
+          "Lentilha",
+          "Ervilha",
+          "Noz",
+          "Semente de gergelim",
+          "Semente de chia",
+          "Aveia",
+          "Arroz integral",
+          "Quinoa"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O cobre é um nutriente essencial para o funcionamento do nosso corpo. É importante consumir uma variedade de alimentos ricos em cobre para garantir que você esteja recebendo a quantidade adequada deste nutriente.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/copper/art-20045088",
+    "https://www.healthline.com/nutrition/copper-foods",
+    "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/"
+  ]
+},
+{
+  "url": "colesterol",
+  "title": "Colesterol: Benefícios e malefícios",
+  "intro": "O colesterol é um lipídio essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Qual a função do colesterol no nosso corpo?",
+      "description": "O colesterol é um nutriente essencial que desempenha uma variedade de funções no nosso corpo, incluindo:",
+      "pros": [
+        "Construção de células e membranas celulares: O colesterol é um componente essencial das células e membranas celulares.",
+        "Produção de hormônios: O colesterol é usado na produção de hormônios, como o estrógeno, a progesterona e a vitamina D.",
+        "Absorção de vitaminas lipossolúveis: O colesterol ajuda na absorção de vitaminas lipossolúveis, como a vitamina A, a vitamina D, a vitamina E e a vitamina K.",
+        "Produção de bile: O colesterol é usado na produção de bile, que ajuda na digestão de gorduras."
+      ],
+      "cons": [
+        "Aterosclerose: O colesterol pode se acumular nas artérias, formando placas que podem estreitar as artérias e aumentar o risco de doenças cardíacas.",
+        "Ataque cardíaco: Um ataque cardíaco ocorre quando o fornecimento de sangue ao coração é interrompido devido a uma obstrução nas artérias.",
+        "Acidente vascular cerebral: Um acidente vascular cerebral ocorre quando o fornecimento de sangue ao cérebro é interrompido devido a uma obstrução nas artérias.",
+        "Outras doenças: O colesterol alto também pode aumentar o risco de outros problemas de saúde, como doença renal, catarata e artrite reumatóide."
+      ],
+      "recommended_amout": "A OMS recomenda que adultos saudáveis consumam menos de 300 mg de colesterol por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos no colesterol?",
+      "description": "Os alimentos mais ricos em colesterol incluem:",
+      "foods": {
+        "novegan": [
+          "Salmão",
+          "Atum",
+          "Queijo",
+          "Ovo",
+          "Fígado"
+        ],
+        "vegan": [
+          "Óleo de coco",
+          "Óleo de palma"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O colesterol é um nutriente essencial, mas o consumo excessivo pode aumentar o risco de doenças cardíacas e outras doenças.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/cholesterol/art-20045959",
+    "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/cholesterol/cholesterol-101",
+    "https://www.who.int/news-room/fact-sheets/detail/cholesterol"
+  ]
+},
+{
+  "url": "ferro",
+  "title": "Ferro: Benefícios e alimentos ricos",
+  "intro": "O ferro é um mineral essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções do ferro no nosso corpo?",
+      "description": "O ferro é essencial para a formação da hemoglobina, uma proteína que transporta oxigênio no sangue. O ferro também é importante para a produção de mioglobina, uma proteína que armazena oxigênio nos músculos. Além disso, o ferro é necessário para a produção de enzimas que participam de várias funções metabólicas.",
+      "pros": [
+        "Transporte de oxigênio no sangue: A hemoglobina, que é composta de ferro, é responsável pelo transporte de oxigênio dos pulmões para os tecidos do corpo.",
+        "Produção de mioglobina: A mioglobina, que também é composta de ferro, armazena oxigênio nos músculos, fornecendo energia para a contração muscular.",
+        "Participação em várias funções metabólicas: O ferro é necessário para a produção de enzimas que participam de várias funções metabólicas, como a respiração celular, a produção de energia e o sistema imunológico."
+      ],
+      "cons": [
+        "Acumulação no fígado: O excesso de ferro pode se acumular no fígado, causando danos ao órgão.",
+        "Formação de radicais livres: O excesso de ferro pode contribuir para a formação de radicais livres, que são moléculas instáveis que podem danificar as células.",
+        "Riscos de câncer: Estudos sugerem que o excesso de ferro pode aumentar o risco de câncer de cólon, estômago e pâncreas."
+      ],
+      "recommended_amout": "A recomendação de ingestão diária de ferro para adultos é de 8 mg para mulheres e 11 mg para homens."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos no ferro?",
+      "description": "Os alimentos mais ricos em ferro são:",
+      "foods": {
+        "novegan": [
+          "Carne vermelha",
+          "Salmão",
+          "Atum",
+          "Fígado",
+          "Camarão",
+          "Aves",
+          "Ovos",
+          "Moluscos"
+        ],
+        "vegan": [
+          "Feijão preto",
+          "Feijão vermelho",
+          "Lentilhas",
+          "Espinafre",
+          "Feijão de soja",
+          "Tofu",
+          "Semente de abóbora",
+          "Semente de girassol",
+          "Grãos integrais"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O ferro é um nutriente essencial para o funcionamento do nosso corpo. É importante consumir alimentos ricos em ferro para garantir que você esteja recebendo a quantidade suficiente deste nutriente.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/iron/art-20045364",
+    "https://www.nhs.uk/conditions/iron-deficiency-anaemia/",
+    "https://www.ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+  ]
+},
+{
+  "url": "fibras",
+  "title": "Fibras: Benefícios e alimentos ricos",
+  "intro": "As fibras são um nutriente essencial para a saúde humana.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções das fibras no nosso corpo?",
+      "description": "As fibras desempenham um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Regulação do trânsito intestinal: As fibras ajudam a manter o intestino funcionando corretamente, evitando a constipação.",
+        "Controle do açúcar no sangue: As fibras ajudam a retardar a absorção de açúcar no sangue, o que pode ajudar a controlar o diabetes.",
+        "Controle do colesterol: As fibras ajudam a reduzir os níveis de colesterol no sangue.",
+        "Redução do risco de doenças cardíacas: As fibras podem ajudar a reduzir o risco de doenças cardíacas, como infarto e derrame.",
+        "Redução do risco de obesidade: As fibras podem ajudar a reduzir o risco de obesidade, pois ajudam a promover a sensação de saciedade."
+      ],
+      "cons": [
+        "Efeitos colaterais no excesso de consumo: O consumo excessivo de fibras pode causar sintomas como gases, inchaço e diarreia.",
+        "Interações medicamentosas: As fibras podem interferir na absorção de alguns medicamentos.",
+        "Incompatibilidade com algumas condições médicas: O consumo de fibras pode ser inadequado para pessoas com certos problemas de saúde, como síndrome do intestino irritável ou diverticulite."
+      ],
+      "recommended_amout": "A recomendação da OMS é de 25 gramas de fibras por dia para adultos."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em fibras?",
+      "description": "Os alimentos mais ricos em fibras são:",
+      "foods": {
+        "novegan": [],
+        "vegan": [
+          "Aveia",
+          "Quinoa",
+          "Arroz integral",
+          "Frutas frescas",
+          "Vegetais frescos"
+        ]
+      }
+    }
+  ],
+  "conclusion": "As fibras são um nutriente essencial para a saúde humana. Uma dieta rica em fibras pode ajudar a prevenir uma variedade de problemas de saúde, como constipação, diabetes, doenças cardíacas e obesidade.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20045674",
+    "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fiber",
+    "https://www.who.int/news-room/fact-sheets/detail/fiber-intake"
+  ]
+},
+{
+  "url": "vitamina-b9",
+  "title": "Vitamina B9: Benefícios e alimentos ricos",
+  "intro": "A vitamina B9, também conhecida como ácido fólico, é uma vitamina essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais são as funções da vitamina B9 no nosso corpo?",
+      "description": "A vitamina B9 desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Crescimento celular e desenvolvimento: A vitamina B9 é essencial para o crescimento e desenvolvimento celular, incluindo a divisão celular e a síntese de DNA.",
+        "Formação de sangue: A vitamina B9 é essencial para a produção de células sanguíneas vermelhas, que transportam oxigênio pelo corpo.",
+        "Metabolismo da homocisteína: A vitamina B9 ajuda a metabolizar a homocisteína, um aminoácido que pode ser prejudicial à saúde se estiver em níveis elevados.",
+        "Redução do risco de defeitos congênitos do tubo neural: A vitamina B9 é importante para prevenir defeitos congênitos do tubo neural, como espinha bífida.",
+        "Melhoria da saúde mental: A vitamina B9 pode ajudar a melhorar a saúde mental, incluindo o humor e a cognição.",
+        "Redução do risco de doenças cardíacas: A vitamina B9 pode ajudar a reduzir o risco de doenças cardíacas, incluindo ataques cardíacos e derrames.",
+        "Redução do risco de câncer: A vitamina B9 pode ajudar a reduzir o risco de câncer, incluindo câncer de mama, câncer de cólon e câncer de pulmão."
+      ],
+      "cons": [
+        "Consumo excessivo de folato pode mascarar sintomas de deficiência de vitamina B12 e aumentar o risco de câncer de próstata."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam 400 microgramas (mcg) de vitamina B9 por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em vitamina B9?",
+      "description": "Os alimentos mais ricos em vitamina B9 incluem:",
+      "foods": {
+        "novegan": [
+          "Fígado de frango",
+          "Fígado de vitela",
+          "Ovos",
+          "Queijo",
+          "Salmão"
+        ],
+        "vegan": [
+          "Ervilhas",
+          "Lentilhas",
+          "Agrião",
+          "Brócolis"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A Vitamina B9 é um nutriente essencial para uma boa saúde. Para garantir uma ingestão adequada de Vitamina B9, é importante incluir uma variedade de alimentos ricos em Vitamina B9 na dieta.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/folate/art-20045704",
+    "https://www.nhs.uk/conditions/vitamins-and-minerals/folate/",
+    "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+  ]
+},
+{
+  "url": "fosforo",
+  "title": "Fósforo: Benefícios e alimentos ricos",
+  "intro": "O fósforo é um mineral essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções do fósforo no nosso corpo?",
+      "description": "O fósforo desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Formação de ossos e dentes: O fósforo é um dos principais componentes dos ossos e dentes, ajudando a mantê-los fortes e saudáveis.",
+        "Metabolismo energético: O fósforo é essencial para o metabolismo energético, ajudando a converter alimentos em energia.",
+        "Produção de proteínas: O fósforo é necessário para a produção de proteínas, que são essenciais para a construção e reparação de tecidos.",
+        "Regulação dos fluidos corporais: O fósforo ajuda a regular os fluidos corporais, mantendo o equilíbrio de água e eletrólitos no corpo.",
+        "Condução nervosa: O fósforo é necessário para a condução nervosa, ajudando a transmitir sinais elétricos através do sistema nervoso."
+      ],
+      "cons": [
+        "Excesso de fósforo no sangue: O excesso de fósforo no sangue pode levar a problemas de saúde, como cálculos renais e danos ósseos.",
+        "Redução da absorção de cálcio: O excesso de fósforo no sangue pode reduzir a absorção de cálcio, o que pode aumentar o risco de osteoporose.",
+        "Interações medicamentosas: O excesso de fósforo pode interagir com certos medicamentos, como alguns medicamentos para o coração e os rins."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam cerca de 700 mg de fósforo por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos no fósforo?",
+      "description": "Os alimentos mais ricos em fósforo incluem:",
+      "foods": {
+        "novegan": [
+          "Salmão",
+          "Atum",
+          "Sardinha",
+          "Leite",
+          "Queijo",
+          "Iogurte",
+          "Carne bovina",
+          "Frango",
+          "Cerdo"
+        ],
+        "vegan": [
+          "Semente de girassol",
+          "Semente de chia",
+          "Semente de abóbora",
+          "Nozes",
+          "Amêndoas",
+          "Castanhas",
+          "Feijão",
+          "Lentilha",
+          "Grão-de-bico"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O fósforo é um nutriente essencial para o funcionamento do nosso corpo. É importante consumir alimentos ricos em fósforo para garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/phosphorus/art-20045341",
+    "https://www.healthline.com/nutrition/phosphorus",
+    "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional"
+  ]
+},
+{
+  "url": "gordura-monoinsaturada",
+  "title": "Gordura monoinsaturada: Benefícios e alimentos ricos",
+  "intro": "A gordura monoinsaturada é um tipo de gordura saudável que pode ajudar a reduzir o risco de doenças cardíacas.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções da gordura monoinsaturada no nosso corpo?",
+      "description": "A gordura monoinsaturada desempenha uma variedade de funções importantes no corpo humano, incluindo:",
+      "pros": [
+        "Regulação do colesterol: A gordura monoinsaturada ajuda a reduzir os níveis de colesterol LDL (ruim) e aumentar os níveis de colesterol HDL (bom).",
+        "Proteção contra doenças cardíacas: A gordura monoinsaturada pode ajudar a reduzir o risco de doenças cardíacas, incluindo ataque cardíaco e derrame.",
+        "Melhoria da saúde cardiovascular: A gordura monoinsaturada pode ajudar a melhorar a saúde cardiovascular, reduzindo a inflamação e o risco de coágulos sanguíneos.",
+        "Ajuda na perda de peso: A gordura monoinsaturada pode ajudar na perda de peso, aumentando a sensação de saciedade e diminuindo o apetite."
+      ],
+      "cons": [
+        "Efeitos colaterais do consumo excessivo de gordura monoinsaturada: O consumo excessivo de gordura monoinsaturada pode aumentar o risco de ganho de peso e obesidade."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam entre 7% e 10% de suas calorias diárias a partir de gorduras monoinsaturadas."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos na gordura monoinsaturada?",
+      "description": "Os alimentos mais ricos em gordura monoinsaturada incluem:",
+      "foods": {
+        "novegan": [
+          "Ovos",
+          "Carnes magras",
+          "Peixes"
+        ],
+        "vegan": [
+          "Azeite de oliva",
+          "Abacates",
+          "Nozes",
+          "Sementes",
+          "Azeite de coco",
+          "Óleos vegetais"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A gordura monoinsaturada é uma gordura saudável que pode ajudar a reduzir o risco de doenças cardíacas. Ao incluir alimentos ricos em gordura monoinsaturada em sua dieta, você pode melhorar sua saúde cardiovascular e bem-estar geral.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/monounsaturated-fat/faq-20058154",
+    "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/types-of-fat/monounsaturated-fat"
+  ]
+},
+{
+  "url": "gordura-poli-insaturada",
+  "title": "Gordura poli insaturada: Benefícios e alimentos ricos",
+  "intro": "A gordura poli insaturada é um tipo de gordura saudável que desempenha um papel importante na saúde humana.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções da gordura poli insaturada no nosso corpo?",
+      "description": "A gordura poli insaturada ajuda a manter a saúde do coração, do cérebro e do sistema nervoso. Também ajuda a reduzir o risco de doenças cardíacas, derrame e outros problemas de saúde.",
+      "pros": [
+        "Ajuda a manter a saúde do coração: A gordura poli insaturada ajuda a reduzir os níveis de colesterol LDL (ruim) no sangue e a aumentar os níveis de colesterol HDL (bom).",
+        "Ajuda a manter a saúde do cérebro: A gordura poli insaturada é essencial para o desenvolvimento e a função do cérebro.",
+        "Ajuda a reduzir o risco de doenças cardíacas: A gordura poli insaturada ajuda a reduzir o risco de doenças cardíacas, derrame e outros problemas de saúde."
+      ],
+      "cons": [
+        "Efeitos no consumo excessivo: O consumo excessivo de gordura poli insaturada pode levar ao aumento de peso e à obesidade e dos níveis de triglicerídeos no sangue."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam de 5 a 10% do total de calorias provenientes de gorduras poli insaturadas."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos na gordura poli insaturada?",
+      "description": "Os alimentos mais ricos em gordura poli insaturada incluem:",
+      "foods": {
+        "novegan": [
+          "Atum",
+          "Salmão",
+          "Sardinhas",
+          "Azeite de oliva",
+          "Nozes"
+        ],
+        "vegan": [
+          "Azeite de oliva",
+          "Nozes",
+          "Sementes",
+          "Abacate",
+          "Oleaginosas"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A gordura poli insaturada é um nutriente essencial para a saúde humana. É importante incluir alimentos ricos em gordura poli insaturada em uma dieta saudável.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/polyunsaturated-fats/faq-20058332",
+    "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/polyunsaturated-fats",
+    "https://ods.od.nih.gov/factsheets/PolyunsaturatedFats-HealthProfessional/"
+  ]
+},
+{
+  "url": "gordura-saturada",
+  "title": "Gordura saturada: Benefícios e malefícios",
+  "intro": "A gordura saturada é um tipo de gordura encontrada em alimentos de origem animal, como carne, laticínios e ovos.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções da gordura saturada no nosso corpo?",
+      "description": "A gordura saturada desempenha uma série de funções importantes no corpo humano, incluindo:",
+      "pros": [
+        "Fornecer energia: A gordura saturada é uma fonte concentrada de energia.",
+        "Fornecer ácidos graxos essenciais: A gordura saturada é uma fonte de ácidos graxos essenciais, que são necessários para o crescimento e desenvolvimento.",
+        "Ajudar na absorção de vitaminas: A gordura saturada ajuda na absorção de vitaminas lipossolúveis, como as vitaminas A, D, E e K.",
+        "Manter a temperatura corporal: A gordura saturada ajuda a manter a temperatura corporal.",
+        "Proteger os órgãos: A gordura saturada ajuda a proteger os órgãos contra lesões."
+      ],
+      "cons": [
+        "Aumenta o risco de doenças cardíacas",
+        "Aumenta o risco de acidente vascular cerebral",
+        "Aumenta o risco de diabetes tipo 2",
+        "Aumenta o risco de obesidade",
+        "Aumenta o risco de alguns tipos de câncer"
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam menos de 10% das calorias diárias totais de gordura saturada."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em gordura saturada?",
+      "description": "Os alimentos mais ricos em gordura saturada incluem:",
+      "foods": {
+        "novegan": [
+          "Carnes vermelhas",
+          "Carne de porco",
+          "Carne de aves",
+          "Leite integral",
+          "Queijo cheddar",
+          "Manteiga",
+          "Carne de porco salgada",
+          "Carne defumada",
+          "Toucinho"
+        ],
+        "vegan": [
+          "Nozes",
+          "Amêndoas",
+          "Avelãs",
+          "Castanhas",
+          "Coco",
+          "Óleo de coco",
+          "Óleo de palma",
+          "Cereais integrais",
+          "Azeite de oliva"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A gordura saturada é uma gordura importante para o corpo humano, mas o consumo excessivo pode aumentar o risco de doenças crônicas.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/saturated-fat/art-20045131",
+    "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fat",
+    "https://www.who.int/news-room/fact-sheets/detail/saturated-and-trans-fats"
+  ]
+},
+{
+  "url": "gordura-trans",
+  "title": "Gordura trans: Benefícios e malefícios",
+  "intro": "A gordura trans é um tipo de gordura que ocorre naturalmente em alguns alimentos de origem animal, como carnes e laticínios. Também pode ser produzida artificialmente, adicionando hidrogênio a óleos vegetais líquidos.",
+  "topics": [
+    {
+      "subtitle": "Quais os riscos do consumo excessivo de gordura trans?",
+      "description": "O consumo excessivo de gordura trans pode levar a uma variedade de problemas de saúde, incluindo:",
+      "pros": [],
+      "cons": [
+        "Aumenta o risco de doenças cardíacas: A gordura trans aumenta o colesterol LDL (\"colesterol ruim\") e diminui o colesterol HDL (\"colesterol bom\"). Isso pode aumentar o risco de doenças cardíacas, como ataque cardíaco e derrame.",
+        "Aumenta o risco de diabetes: A gordura trans pode aumentar a resistência à insulina, o que pode aumentar o risco de diabetes tipo 2.",
+        "Aumenta o risco de doênças no fígado: A gordura trans pode aumentar o risco de doenças no fígado, como esteatose hepática (fígado gorduroso).",
+        "Aumenta o risco de obesidade: A gordura trans pode aumentar a probabilidade de ganho de peso e obesidade."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam menos de 2 gramas de gordura trans por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em gordura trans?",
+      "description": "Os alimentos mais ricos em gordura trans incluem:",
+      "foods": {
+        "novegan": [
+          "Bolo industrializado",
+          "Batata frita industrializada",
+          "Salgadinhos",
+          "Refeição congelada",
+          "Pizza"
+        ],
+        "vegan": [
+          "Pão de forma industrializado",
+          "Pão de hambúrguer",
+          "Pão de cachorro-quente",
+          "Manteiga vegetal hidrogenada",
+          "Margarina"
+        ]
+      }
+    }
+  ],
+  "conclusion": "É importante limitar o consumo de gordura trans para reduzir o risco de problemas de saúde.",
+  "references": [
+    "https://www.mayoclinic.org/diseases-conditions/heart-disease/symptoms-causes/syc-20353113",
+    "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fat/the-truth-about-fat/trans-fat",
+    "https://www.who.int/news-room/fact-sheets/detail/trans-fat"
+  ]
+},
+{
+  "url": "magnesio",
+  "title": "Magnésio: Benefícios e alimentos ricos",
+  "intro": "O magnésio é um mineral essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções do magnésio no nosso corpo?",
+      "description": "O magnésio desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Produção de energia: O magnésio é necessário para a produção de energia nas células.",
+        "Contração muscular: O magnésio é essencial para a contração muscular, incluindo os músculos cardíacos.",
+        "Nervos: O magnésio é necessário para a função nervosa.",
+        "Ossos: O magnésio é necessário para a formação e manutenção dos ossos.",
+        "Hormônios: O magnésio é necessário para a produção de hormônios, como insulina e cortisol."
+      ],
+      "cons": [
+        "Excesso de magnésio pode levar a vômitos, diarreia, fraqueza e confusão.",
+        "Medicamentos diuréticos e antibióticos podem aumentar a perda de magnésio no corpo."
+      ],
+      "recommended_amout": "A recomendação de ingestão diária de magnésio da Organização Mundial da Saúde (OMS) é de 400 miligramas para adultos. Para mulheres grávidas ou amamentando, a recomendação é de 420 miligramas."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos no magnésio?",
+      "description": "Os alimentos mais ricos em magnésio incluem:",
+      "foods": {
+        "novegan": [
+          "Salmão",
+          "Atum"
+        ],
+        "vegan": [
+          "Amêndoas",
+          "Castanhas do Pará",
+          "Nozes pecãs",
+          "Feijão",
+          "Lentilha",
+          "Grão-de-bico",
+          "Ervilha",
+          "Espinafre",
+          "Brócolis",
+          "Couve-de-bruxelas",
+          "Couve-flor",
+          "Abacate",
+          "Bananas",
+          "Chocolate amargo",
+          "Cacau em pó"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O magnésio é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em magnésio pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/magnesium/art-20045578",
+    "https://www.healthline.com/nutrition/foods-high-in-magnesium",
+    "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+  ]
+},
+{
+  "url": "manganes",
+  "title": "Manganês: Benefícios e alimentos ricos",
+  "intro": "O manganês é um mineral essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções do manganês no nosso corpo?",
+      "description": "O manganês desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Metabolismo de carboidratos: O manganês é necessário para o metabolismo de carboidratos, que é a quebra de carboidratos em energia.",
+        "Metabolismo de proteínas: O manganês é necessário para o metabolismo de proteínas, que é a quebra de proteínas em aminoácidos.",
+        "Metabolismo de lipídios: O manganês é necessário para o metabolismo de lipídios, que é a quebra de lipídios em ácidos graxos e glicerol.",
+        "Formação de ossos e cartilagem: O manganês é necessário para a formação de ossos e cartilagem.",
+        "Produção de energia: O manganês é necessário para a produção de energia.",
+        "Função antioxidante: O manganês é um antioxidante que ajuda a proteger as células do dano causado pelos radicais livres."
+      ],
+      "cons": [
+        "Nenhum efeito colateral significativo foi relatado com o consumo excessivo de manganês. No entanto, altas doses de manganês podem causar náuseas, vômitos e diarreia."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam 2,3 mg de manganês por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em manganês?",
+      "description": "Os alimentos mais ricos em manganês incluem:",
+      "foods": {
+        "novegan": [
+          "Amêndoas",
+          "Castanhas de caju",
+          "Castanhas-do-pará",
+          "Sementes de abóbora",
+          "Sementes de chia",
+          "Sementes de girassol",
+          "Frango",
+          "Carne bovina",
+          "Fígado"
+        ],
+        "vegan": [
+          "Amêndoas",
+          "Castanhas de caju",
+          "Castanhas-do-pará",
+          "Sementes de abóbora",
+          "Sementes de chia",
+          "Sementes de girassol",
+          "Feijão",
+          "Lentilha",
+          "Ervilha",
+          "Aveia",
+          "Pão integral",
+          "Quinoa",
+          "Espinafre",
+          "Couve-de-bruxelas",
+          "Brócolis",
+          "Chocolate amargo"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O manganês é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em manganês pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/manganese/art-20045666",
+    "https://www.healthline.com/nutrition/manganese#TOC_TITLE_HDR_10",
+    "https://www.nationalacademies.org/food-and-nutrition/manganese"
+  ]
+},
+{
+  "url": "vitamina-b3",
+  "title": "Vitamina B3: Benefícios e malefícios",
+  "intro": "A vitamina B3, também conhecida como niacina, é um nutriente essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções da vitamina B3 no nosso corpo?",
+      "description": "A vitamina B3 desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Produção de energia: A niacina é necessária para a produção de energia a partir de carboidratos, proteínas e gorduras.",
+        "Função cerebral: A niacina é essencial para a função cerebral, incluindo a memória, a concentração e o humor.",
+        "Saúde da pele: A niacina ajuda a manter a pele saudável e hidratada.",
+        "Saúde cardiovascular: A niacina pode ajudar a reduzir o risco de doenças cardíacas, incluindo aterosclerose e hipertensão."
+      ],
+      "cons": [
+        "Excesso de niacina pode causar efeitos colaterais, como vermelhidão da pele, dor de cabeça, náusea e diarreia.",
+        "Em casos raros, o consumo excessivo de niacina pode causar danos ao fígado."
+      ],
+      "recommended_amout": "A ingestão diária recomendada de vitamina B3 para adultos é de 16 mg para homens e 14 mg para mulheres."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos na vitamina B3?",
+      "description": "Os alimentos mais ricos em vitamina B3 incluem:",
+      "foods": {
+        "novegan": [
+          "Salmão",
+          "Atum",
+          "Fígado de frango",
+          "Carne bovina",
+          "Queijo"
+        ],
+        "vegan": [
+          "Aveia",
+          "Banana",
+          "Batata-doce",
+          "Amêndoas",
+          "Castanhas"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A vitamina B3 é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em vitamina B3 pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/vitamin-b3/art-20044086",
+    "https://www.healthline.com/nutrition/vitamin-b3",
+    "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/"
+  ]
+},
+{
+  "url": "vitamina-b6",
+  "title": "Vitamina B6: Benefícios e alimentos ricos",
+  "intro": "A vitamina B6, também conhecida como piridoxina, é uma vitamina essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Qual a função da vitamina B6 no nosso corpo?",
+      "description": "A vitamina B6 desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Metabolismo de proteínas, carboidratos e gorduras: A vitamina B6 ajuda a quebrar as proteínas, carboidratos e gorduras em nutrientes que podem ser usados pelo corpo.",
+        "Síntese de neurotransmissores: A vitamina B6 ajuda na produção de neurotransmissores, que são substâncias químicas que transmitem mensagens entre as células nervosas. Os neurotransmissores são importantes para o humor, o sono, o aprendizado e a memória.",
+        "Formação de glóbulos vermelhos: A vitamina B6 ajuda a formar glóbulos vermelhos, que transportam oxigênio para todas as células do corpo.",
+        "Produção de hemoglobina: A hemoglobina é uma proteína encontrada nos glóbulos vermelhos que transporta oxigênio para as células do corpo. A vitamina B6 é necessária para a produção de hemoglobina.",
+        "Produção de anticorpos: A vitamina B6 ajuda na produção de anticorpos, que são proteínas que ajudam a proteger o corpo contra infecções."
+      ],
+      "cons": [
+        "Excesso de vitamina B6: O excesso de vitamina B6 pode causar efeitos colaterais, como dormência, formigamento e danos aos nervos."
+      ],
+      "recommended_amout": "A recomendação de ingestão diária de vitamina B6 para adultos saudáveis é de 1,3 mg para homens e 1,2 mg para mulheres."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos na vitamina B6?",
+      "description": "Os alimentos mais ricos em vitamina B6 incluem:",
+      "foods": {
+        "novegan": [
+          "Salmão",
+          "Atum",
+          "Fígado de frango",
+          "Carne bovina",
+          "Queijo"
+        ],
+        "vegan": [
+          "Aveia",
+          "Banana",
+          "Batata",
+          "Amêndoas",
+          "Castanhas"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A vitamina B6 é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em vitamina B6 pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/vitamin-b6/art-20045186",
+    "https://www.healthline.com/nutrition/vitamin-b6#TOC_TITLE_HDR_5",
+    "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+  ]
+},
+{
+  "url": "potassio",
+  "title": "Potássio: Benefícios e alimentos ricos",
+  "intro": "O potássio é um mineral essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções do potássio no nosso corpo?",
+      "description": "O potássio desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Regulação da pressão arterial: O potássio ajuda a equilibrar os níveis de sódio no corpo, o que ajuda a regular a pressão arterial.",
+        "Contração muscular: O potássio é essencial para a contração muscular, incluindo os músculos cardíacos.",
+        "Equilíbrio de fluidos: O potássio ajuda a regular o equilíbrio de fluidos no corpo.",
+        "Função nervosa: O potássio é essencial para a função nervosa."
+      ],
+      "cons": [
+        "Problemas renais: O consumo excessivo de potássio pode ser prejudicial para pessoas com problemas renais.",
+        "Arritmia cardíaca: O consumo excessivo de potássio pode causar arritmias cardíacas em pessoas com predisposição."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam 3.500 mg de potássio por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos no potássio?",
+      "description": "Os alimentos mais ricos em potássio incluem:",
+      "foods": {
+        "novegan": [
+          "Salmão",
+          "Atum",
+          "Fígado de frango",
+          "Carne bovina",
+          "Queijo"
+        ],
+        "vegan": [
+          "Batata-doce",
+          "Bananas",
+          "Tomate",
+          "Abacate",
+          "Amêndoas",
+          "Castanhas"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O potássio é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em potássio pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/potassium/art-20045355",
+    "https://www.healthline.com/nutrition/foods-high-in-potassium",
+    "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
+  ]
+},
+{
+  "url": "proteina",
+  "title": "Proteína: Benefícios e alimentos ricos",
+  "intro": "As proteínas são essenciais para o crescimento, desenvolvimento e manutenção do corpo humano.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções da proteína no nosso corpo?",
+      "description": "As proteínas desempenham uma variedade de funções no corpo humano, incluindo:",
+      "pros": [
+        "Construção e reparo de tecidos: As proteínas são os blocos de construção de todos os tecidos do corpo, incluindo músculos, ossos, pele, cabelos e unhas. Elas são essenciais para o crescimento, desenvolvimento e manutenção do corpo.",
+        "Regulação de processos celulares: As proteínas regulam uma ampla gama de processos celulares, incluindo a digestão, o metabolismo e o sistema imunológico. Elas ajudam a garantir que o corpo funcione corretamente.",
+        "Transporte de nutrientes e oxigênio: As proteínas transportam nutrientes e oxigênio para as células do corpo. Elas são essenciais para a energia e a saúde celular.",
+        "Proteção contra doenças: As proteínas ajudam a proteger o corpo contra doenças, como infecções e câncer. Elas fornecem os blocos de construção para o sistema imunológico e ajudam a combater a inflamação."
+      ],
+      "cons": [
+        "O excesso de proteína pode causar sobrecarga renal e problemas intestinais.",
+        "O consumo excessivo de proteína de origem animal também pode aumentar o risco de doenças cardíacas, câncer e diabetes."
+      ],
+      "recommended_amout": "A recomendação de ingestão diária de proteína para adultos saudáveis é de 0,8 gramas por quilograma de peso corporal."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em proteína?",
+      "description": "Os alimentos mais ricos em proteína são:",
+      "foods": {
+        "novegan": [
+          "Salmão",
+          "Atum",
+          "Carne bovina",
+          "Frango",
+          "Ovo",
+          "Queijo"
+        ],
+        "vegan": [
+          "Lentilhas",
+          "Feijão",
+          "Grão de bico",
+          "Soja",
+          "Nozes",
+          "Sementes de chia",
+          "Sementes de linhaça"
+        ]
+      }
+    }
+  ],
+  "conclusion": "As proteínas são nutrientes essenciais para o corpo humano. Uma dieta equilibrada deve incluir uma variedade de alimentos ricos em proteína para garantir que o corpo receba a quantidade de proteína de que precisa.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/protein/art-20045679",
+    "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/protein",
+    "https://www.who.int/news-room/fact-sheets/detail/protein"
+  ]
+},
+{
+  "url": "retinol",
+  "title": "Retinol: Benefícios e alimentos ricos",
+  "intro": "O retinol é uma forma de vitamina A, que é um nutriente essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções do retinol no nosso corpo?",
+      "description": "O retinol desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Visão: O retinol ajuda a formar a rodopsina, uma proteína que capta a luz nos olhos.",
+        "Crescimento e desenvolvimento: O retinol ajuda a regular o crescimento celular e a diferenciação.",
+        "Reprodução: O retinol ajuda a manter a saúde dos óvulos e espermatozoides.",
+        "Imunidade: O retinol ajuda a combater infecções.",
+        "Antioxidante: O retinol ajuda a proteger as células do dano causado pelos radicais livres."
+      ],
+      "cons": [
+        "Excesso de retinol pode causar danos ao fígado, principalmente em pessoas com predisposição genética.",
+        "Excesso de retinol pode causar hipervitaminose A, que pode causar sintomas como perda de cabelo, dores nas articulações, náuseas e vômitos."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam 700 microgramas de retinol por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em retinol?",
+      "description": "Os alimentos mais ricos em retinol incluem:",
+      "foods": {
+        "novegan": [
+          "Fígado",
+          "Salmão",
+          "Carne bovina",
+          "Creme de leite",
+          "Queijo cheddar"
+        ],
+        "vegan": [
+          "Cenoura",
+          "Batata-doce",
+          "Brócolis",
+          "Laranja",
+          "Melão"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O retinol é um nutriente essencial para o funcionamento do nosso corpo. É importante consumir alimentos ricos em retinol, mas é importante evitar o excesso, pois pode causar danos ao fígado.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/vitamin-a/art-20045250",
+    "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+  ]
+},
+{
+  "url": "vitamina-b2",
+  "title": "Vitamina B2: Benefícios e alimentos ricos",
+  "intro": "A vitamina B2, também conhecida como riboflavina, é um nutriente essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções da vitamina B2 no nosso corpo?",
+      "description": "A vitamina B2 desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Metabolismo de energia: A vitamina B2 é necessária para a produção de energia a partir de carboidratos, proteínas e gorduras.",
+        "Síntese de DNA: A vitamina B2 é necessária para a síntese de DNA, que é essencial para o crescimento e a reparação celular.",
+        "Produção de glóbulos vermelhos: A vitamina B2 é necessária para a produção de glóbulos vermelhos, que transportam oxigênio pelo corpo.",
+        "Função do sistema nervoso: A vitamina B2 é necessária para a função do sistema nervoso, incluindo a transmissão de sinais nervosos."
+      ],
+      "cons": [
+        "Doses excessivas de vitamina B2 podem causar efeitos colaterais leves, como dor de cabeça, náuseas e diarreia.",
+        "Em casos muito raros, doses excessivas de vitamina B2 podem causar efeitos colaterais mais graves, como danos ao fígado."
+      ],
+      "recommended_amout": "A recomendação de ingestão diária de vitamina B2 para adultos é de 1,3 mg."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos na vitamina B2?",
+      "description": "Os alimentos mais ricos em vitamina B2 incluem:",
+      "foods": {
+        "novegan": [
+          "Fígado de frango",
+          "Fígado de porco",
+          "Fígado de vaca",
+          "Queijo cheddar",
+          "Queijo suíço",
+          "Queijo brie",
+          "Ovos"
+        ],
+        "vegan": [
+          "Leguminosas",
+          "Verduras de folhas verdes",
+          "Amêndoas",
+          "Nozes",
+          "Cogumelos"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A vitamina B2 é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em vitamina B2 pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/vitamin-b2/art-20045357",
+    "https://www.healthline.com/nutrition/vitamin-b2",
+    "https://ods.od.nih.gov/factsheets/VitaminB2-HealthProfessional/"
+  ]
+},
+{
+  "url": "selenio",
+  "title": "Selênio: Benefícios e alimentos ricos",
+  "intro": "O selênio é um mineral essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções do selênio no nosso corpo?",
+      "description": "O selênio desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Proteção antioxidante: O selênio é um antioxidante que ajuda a proteger as células do dano causado pelos radicais livres. Os radicais livres são moléculas instáveis que podem danificar as células, levando ao envelhecimento e a doenças crônicas.",
+        "Função imunológica: O selênio é essencial para o funcionamento do sistema imunológico. O sistema imunológico é responsável por proteger o corpo contra infecções.",
+        "Produção de hormônios tireoidianos: O selênio é necessário para a produção de hormônios tireoidianos, que são essenciais para o metabolismo. Os hormônios tireoidianos ajudam a controlar o crescimento, o desenvolvimento e o metabolismo.",
+        "Reprodução: O selênio é importante para a fertilidade e o desenvolvimento fetal. O selênio ajuda a proteger o DNA e a promover o desenvolvimento de células saudáveis."
+      ],
+      "cons": [
+        "Excesso de selênio: O excesso de selênio pode causar sintomas como náusea, vômito, diarreia, dor de cabeça, fadiga e unhas quebradiças. Em casos graves, o excesso de selênio pode levar a danos no fígado e nos rins."
+      ],
+      "recommended_amout": "A recomendação de ingestão diária (RDA) de selênio para adultos é de 55 microgramas (mcg) para homens e 45 mcg para mulheres."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos no selênio?",
+      "description": "Os alimentos mais ricos em selênio incluem:",
+      "foods": {
+        "novegan": [
+          "Atum",
+          "Cavala",
+          "Salmão",
+          "Fígado de frango"
+        ],
+        "vegan": [
+          "Nozes do Pará",
+          "Nozes pecã",
+          "Cogumelo shiitake",
+          "Tofu",
+          "Sementes de girassol"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O selênio é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em selênio pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/selenium/art-20045355",
+    "https://www.healthline.com/nutrition/selenium",
+    "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+  ]
+},
+{
+  "url": "sodio",
+  "title": "Sódio: Benefícios e malefícios",
+  "intro": "O sódio é um mineral essencial para o funcionamento do nosso corpo, mas o consumo excessivo pode levar a problemas de saúde graves.",
+  "topics": [
+    {
+      "subtitle": "Qual a função do nutriente no nosso corpo?",
+      "description": "O sódio desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Regulação da pressão arterial: O sódio ajuda a manter a pressão arterial normal, regulando a quantidade de água no corpo.",
+        "Manutenção do equilíbrio hídrico: O sódio ajuda a manter o equilíbrio hídrico no corpo, atraindo água para dentro das células.",
+        "Função muscular e nervosa: O sódio é essencial para a função muscular e nervosa, transmitindo sinais elétricos entre as células."
+      ],
+      "cons": [
+        "Pressão alta: O consumo excessivo de sódio pode aumentar a pressão arterial, o que é um importante fator de risco para doenças cardíacas, derrame e acidente vascular cerebral.",
+        "Doenças cardíacas: O consumo excessivo de sódio pode aumentar o risco de doenças cardíacas, incluindo ataque cardíaco e insuficiência cardíaca.",
+        "Derrame: O consumo excessivo de sódio pode aumentar o risco de derrame.",
+        "Acidente vascular cerebral: O consumo excessivo de sódio pode aumentar o risco de acidente vascular cerebral.",
+        "Osteoporose: O consumo excessivo de sódio pode aumentar o risco de osteoporose, uma doença que enfraquece os ossos.",
+        "Câncer de estômago: Estudos têm sugerido que o consumo excessivo de sódio pode aumentar o risco de câncer de estômago."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam menos de 2.300 mg de sódio por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos no nutriente?",
+      "description": "Os alimentos mais ricos em sódio incluem:",
+      "foods": {
+        "novegan": [
+          "Sal",
+          "Presunto",
+          "Queijo",
+          "Hambúrguer",
+          "Pizza"
+        ],
+        "vegan": [
+          "Queijo vegano",
+          "Tomate em lata",
+          "Ervilha em lata",
+          "Pão de forma",
+          "Pão industrializado"
+        ]
+      }
+    }
+  ],
+  "conclusion": "É importante limitar o consumo de sódio para reduzir o risco de problemas de saúde.",
+  "references": [
+    "https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/symptoms-causes/syc-20373410",
+    "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/how-much-sodium-is-too-much",
+    "https://www.who.int/news-room/fact-sheets/detail/sodium-and-salt"
+  ]
+},
+{
+  "url": "vitamina-b1",
+  "title": "Vitamina B1: Benefícios e alimentos ricos",
+  "intro": "A vitamina B1, também conhecida como tiamina, é um nutriente essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções da vitamina B1 no nosso corpo?",
+      "description": "A vitamina B1 desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Metabolismo energético: A vitamina B1 ajuda a converter alimentos em energia, o que é essencial para o funcionamento do corpo.",
+        "Função muscular: A vitamina B1 ajuda a manter a função muscular, incluindo os músculos cardíacos.",
+        "Função nervosa: A vitamina B1 ajuda a manter a função nervosa, o que é essencial para a saúde mental e cognitiva."
+      ],
+      "cons": [
+        "Excesso de vitamina B1: O excesso de vitamina B1 é raro e geralmente não é prejudicial."
+      ],
+      "recommended_amout": "A recomendação de ingestão diária de vitamina B1 para adultos é de 1,2 mg por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em vitamina B1?",
+      "description": "Os alimentos mais ricos em vitamina B1 incluem:",
+      "foods": {
+        "novegan": [
+          "Fígado de boi",
+          "Carne de porco",
+          "Salmão",
+          "Carne de frango",
+          "Queijo"
+        ],
+        "vegan": [
+          "Amendoim",
+          "Aveia",
+          "Ervilha",
+          "Lentilha",
+          "Grão-de-bico"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A vitamina B1 é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em vitamina B1 pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/vitamin-b1/art-20045355",
+    "https://www.healthline.com/nutrition/vitamin-b1",
+    "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+  ]
+},
+{
+  "url": "vitamina-a",
+  "title": "Vitamina A: Benefícios e alimentos ricos",
+  "intro": "A vitamina A é um nutriente essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Quais as funções da vitamina A no nosso corpo?",
+      "description": "A vitamina A desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Visão: A vitamina A é essencial para a visão, especialmente à noite. Ajuda a converter a luz em impulsos nervosos que são enviados ao cérebro.",
+        "Imunidade: A vitamina A é importante para a função imunológica, ajudando o corpo a combater infecções. Ajuda a produzir glóbulos brancos, que ajudam o corpo a combater infecções.",
+        "Crescimento e desenvolvimento: A vitamina A é necessária para o crescimento e desenvolvimento, especialmente das células e tecidos. Ajuda a formar e manter a pele, os ossos, os dentes e o tecido epitelial.",
+        "Reprodução: A vitamina A é importante para a reprodução, ajudando a manter a saúde dos órgãos reprodutivos. Ajuda a produzir hormônios e óvulos saudáveis.",
+        "Proteção da pele: A vitamina A ajuda a proteger a pele contra danos. Ajuda a produzir colágeno, que ajuda a manter a pele firme e elástica."
+      ],
+      "cons": [
+        "Excesso de vitamina A pode causar toxicidade. Os sintomas de toxicidade da vitamina A podem incluir dor de cabeça, dor nas articulações, náusea, vômito e perda de cabelo.",
+        "A vitamina A também pode interagir com alguns medicamentos. Se você estiver tomando medicamentos, converse com seu médico antes de aumentar sua ingestão de vitamina A."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam 900 microgramas (mcg) de vitamina A por dia para mulheres e 1.000 mcg por dia para homens."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em vitamina A?",
+      "description": "Os alimentos mais ricos em vitamina A incluem:",
+      "foods": {
+        "novegan": [
+          "Fígado de frango",
+          "Salmão",
+          "Carne vermelha",
+          "Queijo",
+          "Ovo"
+        ],
+        "vegan": [
+          "Batata-doce",
+          "Cenouras",
+          "Abóbora",
+          "Couve",
+          "Pimentão vermelho"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A vitamina A é um nutriente essencial para a saúde. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em vitamina A pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/vitamin-a/art-20045192",
+    "https://www.healthline.com/nutrition/vitamin-a-foods",
+    "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+  ]
+},
+{
+  "url": "vitamina-c",
+  "title": "Vitamina C: Benefícios e alimentos ricos",
+  "intro": "A vitamina C é uma vitamina essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Qual a função da vitamina C no nosso corpo?",
+      "description": "A vitamina C desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Produção de colágeno: A vitamina C é essencial para a produção de colágeno, uma proteína que dá estrutura à pele, ossos, músculos e cartilagens.",
+        "Proteção contra radicais livres:A vitamina C é um antioxidante que ajuda a proteger as células contra danos causados por radicais livres.",
+        "Ajuda na absorção de ferro: A vitamina C ajuda na absorção de ferro de alimentos vegetais.",
+        "Redução do risco de doenças cardíacas: A vitamina C pode ajudar a reduzir o risco de doenças cardíacas, pois ajuda a controlar a pressão arterial e reduzir o colesterol LDL (ruim).",
+        "Redução do risco de câncer: A vitamina C pode ajudar a reduzir o risco de câncer, pois ajuda a proteger as células contra danos causados por radicais livres."
+      ],
+      "cons": [
+        "O consumo excessivo de vitamina C pode causar náuseas, vômitos, diarreia e dor de estômago.",
+        "Em casos raros, o consumo excessivo de vitamina C pode levar a pedras nos rins."
+      ],
+      "recommended_amout": "A Organização Mundial da Saúde (OMS) recomenda que adultos saudáveis consumam 90 mg de vitamina C por dia."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em vitamina C?",
+      "description": "Os alimentos mais ricos em vitamina C incluem:",
+      "foods": {
+        "novegan": [
+          "Salmão",
+          "Ostra"
+        ],
+        "vegan": [
+          "Laranja",
+          "Limão",
+          "Toranja",
+          "Kiwi",
+          "Morango",
+          "Brócolis",
+          "Batata-doce",
+          "Pimentão"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A vitamina C é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em vitamina C pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/vitamin-c/art-20045484",
+    "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+  ]
+},
+{
+  "url": "vitamina-d",
+  "title": "Vitamina D: Benefícios e alimentos ricos",
+  "intro": "A vitamina D é um nutriente essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Qual a função da vitamina D no nosso corpo?",
+      "description": "A vitamina D desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Regulação da absorção de cálcio e fósforo: A vitamina D é essencial para a absorção de cálcio e fósforo no intestino, que são essenciais para a saúde óssea.",
+        "Fortalecimento do sistema imunológico: A vitamina D ajuda a fortalecer o sistema imunológico, protegendo o corpo contra infecções.",
+        "Redução do risco de doenças crônicas: A vitamina D pode ajudar a reduzir o risco de doenças crônicas, como doenças cardíacas, diabetes tipo 2 e câncer."
+      ],
+      "cons": [
+        "Ingestão excessiva: A ingestão excessiva de vitamina D pode causar calcificação nos tecidos, o que pode levar a problemas de saúde, como pedras nos rins e calcificação nos vasos sanguíneos."
+      ],
+      "recommended_amout": "Recomendação de ingestão diária da vitamina D para adultos: 15 microgramas (μg) ou 600 unidades internacionais (UI)."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos na vitamina D?",
+      "description": "Os alimentos mais ricos em vitamina D incluem:",
+      "foods": {
+        "novegan": [
+          "Salmão",
+          "Atum",
+          "Fígado de frango",
+          "Carne bovina",
+          "Queijo"
+        ],
+        "vegan": [
+          "Leite de soja fortificado",
+          "Cogumelos shitake"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A vitamina D é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em vitamina D pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/vitamin-d/art-20045578",
+    "https://www.healthline.com/nutrition/vitamin-d-foods",
+    "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+  ]
+},
+{
+  "url": "vitamina-e",
+  "title": "Vitamina E: Benefícios e alimentos ricos",
+  "intro": "A vitamina E é um nutriente essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Qual a função da vitamina E no nosso corpo?",
+      "description": "A vitamina E é um antioxidante que ajuda a proteger as células do nosso corpo dos danos causados pelos radicais livres. Ela também desempenha um papel importante na função imunológica, na saúde cardiovascular e na saúde da pele.",
+      "pros": [
+        "Antioxidante: A vitamina E protege as células do nosso corpo dos danos causados pelos radicais livres, que podem contribuir para o desenvolvimento de doenças crônicas, como doenças cardíacas, câncer e doenças neurodegenerativas.",
+        "Função imunológica: A vitamina E ajuda a fortalecer o sistema imunológico, o que pode ajudar a proteger contra infecções.",
+        "Saúde cardiovascular: A vitamina E ajuda a manter a saúde do coração, reduzindo o risco de doenças cardíacas e derrame.",
+        "Saúde da pele: A vitamina E ajuda a proteger a pele dos danos causados pelo sol e da poluição, o que pode ajudar a prevenir o envelhecimento precoce da pele."
+      ],
+      "cons": [
+        "Excesso de vitamina E: O excesso de vitamina E pode causar alguns efeitos colaterais, como diarreia, náusea e vômitos."
+      ],
+      "recommended_amout": "A recomendação de ingestão diária de vitamina E para adultos é de 15 mg para homens e 12 mg para mulheres."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em vitamina E?",
+      "description": "Os alimentos mais ricos em vitamina E incluem:",
+      "foods": {
+        "novegan": [
+        ],
+        "vegan": [
+          "Abacate",
+          "Amendoim",
+          "Azeite de oliva",
+          "Brócolis",
+          "Castanhas de caju",
+          "Amêndoas",
+          "Avelãs",
+          "Castanhas do Pará",
+          "Folhas de espinafre",
+          "Óleo de girassol"
+        ]
+      }
+    }
+  ],
+  "conclusion": "A vitamina E é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em vitamina E pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/vitamin-e/art-20045355",
+    "https://www.healthline.com/nutrition/vitamin-e",
+    "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"
+  ]
+},
+{
+  "url": "zinco",
+  "title": "Zinco: Benefícios e alimentos ricos",
+  "intro": "O zinco é um mineral essencial para o funcionamento do nosso corpo.",
+  "topics": [
+    {
+      "subtitle": "Qual a função do zinco no nosso corpo?",
+      "description": "O zinco desempenha um papel importante em uma variedade de funções biológicas, incluindo:",
+      "pros": [
+        "Crescimento e desenvolvimento: O zinco é necessário para o crescimento e desenvolvimento normal das células, tecidos e órgãos.",
+        "Imunidade: O zinco é essencial para uma resposta imunológica saudável.",
+        "Reprodução: O zinco é necessário para a produção de espermatozoides e óvulos saudáveis.",
+        "Cura de feridas: O zinco ajuda na cicatrização de feridas.",
+        "Metabolismo: O zinco é necessário para o metabolismo normal de proteínas, carboidratos e gorduras."
+      ],
+      "cons": [
+        "A ingestão excessiva de zinco pode causar náusea, vômito, diarreia e dor abdominal.",
+        "Em casos graves, a ingestão excessiva de zinco pode levar a danos no fígado, rins e sistema nervoso."
+      ],
+      "recommended_amout": "A recomendação de ingestão diária de zinco para adultos é de 11 mg para homens e 8 mg para mulheres."
+    },
+    {
+      "subtitle": "Quais os alimentos mais ricos em zinco?",
+      "description": "Os alimentos mais ricos em zinco incluem:",
+      "foods": {
+        "novegan": [
+          "Carne bovina",
+          "Carne de porco",
+          "Cordeiro",
+          "Salmão",
+          "Atum",
+          "Sardinha",
+          "Frango",
+          "Peru"
+        ],
+        "vegan": [
+          "Castanha do Pará",
+          "Amêndoas",
+          "Sementes de abóbora",
+          "Feijão preto",
+          "Feijão branco",
+          "Feijão vermelho",
+          "Trigo sarraceno",
+          "Tempeh",
+          "Tofu",
+          "Couve-de-bruxelas",
+          "Grão-de-bico",
+          "Gergelim"
+        ]
+      }
+    }
+  ],
+  "conclusion": "O zinco é um nutriente essencial para o funcionamento do nosso corpo. Uma dieta equilibrada que inclua uma variedade de alimentos ricos em zinco pode ajudar a garantir que você esteja recebendo a quantidade adequada deste nutriente importante.",
+  "references": [
+    "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/zinc/art-20045521",
+    "https://www.healthline.com/nutrition/zinc-foods",
+    "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]

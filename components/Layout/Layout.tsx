@@ -2,8 +2,8 @@ import { Box } from '@mui/material';
 import React from 'react';
 import { PageProps } from '../../types';
 import Footer from './Footer';
+import MainLayout from './MainLayout';
 import Header from './Header';
-import Main from './Main';
 
 function Layout({ children }:PageProps) {
   return (
@@ -13,13 +13,13 @@ function Layout({ children }:PageProps) {
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundImage: "url('images/background15.jpg')",
+            background: 'linear-gradient(157deg, #FFF7F1 18.07%, #F3FFF1 100%)',
           }}
         >
-            <Header />
-            <Main>
+          <Header />
+            <MainLayout>
                 {children}
-            </Main>
+            </MainLayout>
             <Footer />
         </Box>
   );

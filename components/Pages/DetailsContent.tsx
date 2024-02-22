@@ -5,19 +5,18 @@ import { Box, Typography } from '@mui/material';
 import Head from 'next/head';
 import { getStaticProps } from '../../pages/item/[pathsUrl]';
 import DetailsTable from '../DetailsTable';
-import MainLayout from '../Layout/MainLayout';
-import SearchBar from '../SearchBar';
-// import Sticker from '../Sticker';
 import StickerBox from '../StickerBox';
-import { IkeyOfIngredients } from '../../types';
+import { Iingredient, IkeyOfIngredients } from '../../types';
 import vd from '../../utils/consts/vd';
 import { excludeOfTable } from '../../config/config';
-import { getByValue } from '../../utils/features/ingredientKeyConverter';
+import { getByValue } from '../../utils/functions/ingredientKeyConverter';
 
 const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>) => {
   const keys:IkeyOfIngredients[] | string[] = Object.keys(vd);
   const filteredKeys = keys.filter((item) => !excludeOfTable.includes(item));
-  const bodyTable = () => filteredKeys.map((item) => (`<li>${getByValue(item)}: ${(data.pageData[0][item as IkeyOfIngredients] === '-') ? `${(0).toFixed(2).toString()} ${item.slice(item.lastIndexOf('-')! + 1)}` : `${(parseInt(data.pageData[0][item as IkeyOfIngredients], 10)).toFixed(2)} ${item.slice(item.lastIndexOf('-')! + 1)}`}<li>`));
+  const pageData = data.pageData as Iingredient;
+  const { pageText } = data;
+  const bodyTable = () => filteredKeys.map((item) => (`<li>${getByValue(item)}: ${(pageData[item as IkeyOfIngredients] === '-') ? `${(0).toFixed(2).toString()} ${item.slice(item.lastIndexOf('-')! + 1)}` : `${(parseInt(pageData[item as IkeyOfIngredients], 10)).toFixed(2)} ${item.slice(item.lastIndexOf('-')! + 1)}`}<li>`));
 
   const faq = () => filteredKeys.map((item) => {
     function unitNutrient(itemToGetUnit:string) {
@@ -29,15 +28,24 @@ const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>)
     return (`,
     {
       "@type": "Question",
-      "name": "${data.pageData[0].alimentoEPreparacao} possui ${unitNutrient(item)}?",
+      "name": "${pageData.alimentoEPreparacao} possui ${unitNutrient(item)}?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "<p>Em média possui <b> ${data.pageData[0][item as keyof typeof data.pageData[0]]} ${item.slice(item.lastIndexOf('-')! + 1)}</b> a cada porção de 100g. <a href=https://www.informacoesnutricionais.com.br/item/${data.pathUrl}>Clique aqui</a> para ver as informações nutricionais completas.</p>"
+        "text": "<p>Em média possui <b> ${pageData[item as keyof typeof pageData]} ${item.slice(item.lastIndexOf('-')! + 1)}</b> a cada porção de 100g. <a href=https://www.informacoesnutricionais.com.br/item/${data.pathUrl}>Clique aqui</a> para ver as informações nutricionais completas.</p>"
       }
     }`
     );
   });
-
+  const splitedText = pageText.split('\n');
+  const textToRender = () => {
+    const text = splitedText.map((fragment, index) => {
+      if (fragment === '') {
+        return ('');
+      }
+      return (<p key={index}>{fragment}</p>);
+    });
+    return text;
+  };
   const bodyTb = bodyTable();
   const textBodyTb = bodyTb.join('');
   const faqRes = faq();
@@ -45,32 +53,32 @@ const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>)
   return (
     <>
       <Head>
-        <title>{`Informações Nutricionais - ${data.pageData[0].alimentoEPreparacao}`}</title>
-        <meta name='description' content={`Conheça todas as informações nutricionais de ${data.pageData[0].alimentoEPreparacao}`} />
+        <title>{`Informações Nutricionais - ${pageData.alimentoEPreparacao}`}</title>
+        <meta name='description' content={`Conheça todas as informações nutricionais de ${pageData.alimentoEPreparacao}`} />
         <script type='application/ld+json'>
           {`[
             {
               "@context": "https://schema.org",
               "@type": "NutritionInformation",
-              "name": "${data.pageData[0].alimentoEPreparacao}",
-              "calories": "${data.pageData[0]['energia-kcal'] === '-' ? '0' : data.pageData[0]['energia-kcal']} calorias",
-              "carbohydrateContent": "${data.pageData[0]['carboidrato-g'] === '-' ? '0' : data.pageData[0]['carboidrato-g']} g",
-              "cholesterolContent": "${data.pageData[0]['colesterol-mg'] === '-' ? '0' : data.pageData[0]['colesterol-mg']} mg",
-              "fatContent": "${data.pageData[0]['lipidiosTotais-g'] === '-' ? '0' : data.pageData[0]['lipidiosTotais-g']} mg",
-              "fiberContent": "${data.pageData[0]['fibraTotal-g'] === '-' ? '0' : data.pageData[0]['fibraTotal-g']} g",
-              "proteinContent": "${data.pageData[0]['proteina-g'] === '-' ? '0' : data.pageData[0]['proteina-g']} g",
-              "saturatedFatContent": "${data.pageData[0]['gorduraSaturados-g'] === '-' ? '0' : data.pageData[0]['gorduraSaturados-g']} g",
-              "sodiumContent": "${data.pageData[0]['sodio-mg'] === '-' ? '0' : data.pageData[0]['sodio-mg']} mg",
-              "sugarContent": "${data.pageData[0]['acucarTotal-g'] === '-' ? '0' : data.pageData[0]['acucarTotal-g']} g",
-              "transFatContent": "${data.pageData[0]['gorduraTransTotal-g'] === '-' ? '0' : data.pageData[0]['gorduraTransTotal-g']} g",
-              "unsaturatedFatContent": "${data.pageData[0]['gorduraPolissaturada-g'] + data.pageData[0]['gorduraMonossaturada-g'] === '-' ? '0' : data.pageData[0]['gorduraPolissaturada-g'] + data.pageData[0]['gorduraMonossaturada-g']} g"
+              "name": "${pageData.alimentoEPreparacao}",
+              "calories": "${pageData['energia-kcal'] === '-' ? '0' : pageData['energia-kcal']} calorias",
+              "carbohydrateContent": "${pageData['carboidrato-g'] === '-' ? '0' : pageData['carboidrato-g']} g",
+              "cholesterolContent": "${pageData['colesterol-mg'] === '-' ? '0' : pageData['colesterol-mg']} mg",
+              "fatContent": "${pageData['lipidiosTotais-g'] === '-' ? '0' : pageData['lipidiosTotais-g']} mg",
+              "fiberContent": "${pageData['fibraTotal-g'] === '-' ? '0' : pageData['fibraTotal-g']} g",
+              "proteinContent": "${pageData['proteina-g'] === '-' ? '0' : pageData['proteina-g']} g",
+              "saturatedFatContent": "${pageData['gorduraSaturados-g'] === '-' ? '0' : pageData['gorduraSaturados-g']} g",
+              "sodiumContent": "${pageData['sodio-mg'] === '-' ? '0' : pageData['sodio-mg']} mg",
+              "sugarContent": "${pageData['acucarTotal-g'] === '-' ? '0' : pageData['acucarTotal-g']} g",
+              "transFatContent": "${pageData['gorduraTransTotal-g'] === '-' ? '0' : pageData['gorduraTransTotal-g']} g",
+              "unsaturatedFatContent": "${pageData['gorduraPolissaturada-g'] + pageData['gorduraMonossaturada-g'] === '-' ? '0' : pageData['gorduraPolissaturada-g'] + pageData['gorduraMonossaturada-g']} g"
             },
             {
               "@context": "https://schema.org",
               "@type": "FAQPage",
               "mainEntity": [{
                 "@type": "Question",
-                "name": "Quais as informações nutricionais de ${data.pageData[0].alimentoEPreparacao}",
+                "name": "Quais as informações nutricionais de ${pageData.alimentoEPreparacao}",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "
@@ -87,16 +95,6 @@ const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>)
           `}
         </script>
       </Head>
-      <Box
-        display='flex'
-        width='90%'
-        alignItems='center'
-        justifyContent='center'
-        mb= '6vw'
-      >
-        <SearchBar data={data.searchBarData} />
-      </Box>
-      <MainLayout>
         <Box
           display='flex'
           flexDirection='column'
@@ -110,19 +108,21 @@ const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>)
               fontWeight: 'bold',
             }}
           >
-            {data.pageData[0].alimentoEPreparacao}
+            {pageData.alimentoEPreparacao}
           </Typography>
-          <StickerBox data={data.pageData[0]} />
+          <section>
+            {textToRender()}
+          </section>
+          <StickerBox data={pageData} />
           <Box
             display='flex'
             mb={2}
             width='100%'
             maxWidth='600px'
           >
-            <DetailsTable data={data.pageData} />
+            <DetailsTable data={pageData} />
           </Box>
         </Box>
-      </MainLayout>
     </>
   );
 };
