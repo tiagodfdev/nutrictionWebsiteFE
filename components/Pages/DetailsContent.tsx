@@ -55,6 +55,8 @@ const DetailsContent = ({ data }:InferGetStaticPropsType<typeof getStaticProps>)
       <Head>
         <title>{`Informações Nutricionais - ${pageData.alimentoEPreparacao}`}</title>
         <meta name='description' content={`Conheça todas as informações nutricionais de ${pageData.alimentoEPreparacao}`} />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1409030227834955"
+     crossOrigin="anonymous"></script>
         <script type='application/ld+json'>
           {`[
             {

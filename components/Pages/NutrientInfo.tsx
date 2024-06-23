@@ -66,6 +66,8 @@ const NutrientInfo = ({ data }:InferGetStaticPropsType<typeof getStaticProps>) =
       <Head>
         <title>{`Informações Nutricionais - ${pageData.title}`}</title>
         <meta name='description' content={ `Saiba tudo sobre ${pageData.title.slice(0, pageData.title.indexOf(':'))}, benefícios, malefícios e quantidades recomendadas de ingestão.`} />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1409030227834955"
+     crossOrigin="anonymous"></script>
         <script type='application/ld+json'>
           {`[
             {

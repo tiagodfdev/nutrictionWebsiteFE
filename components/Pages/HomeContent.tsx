@@ -17,6 +17,8 @@ function HomeContent(props:IProps) {
       <Head>
         <title>Informações Nutricionais</title>
         <meta name='description' content='Encontre as informações nutricionais referentes a maioria dos alimentos consumidos pelos brasileiros e brasileiras' />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1409030227834955"
+     crossOrigin="anonymous"></script>
         <script type='application/ld+json'>
           {`[
               {
